@@ -1,5 +1,7 @@
 {
+  "id": "EtlVacQuality001",
   "name": "ETL Vacancies - Data Quality Pipeline",
+  "active": false,
   "nodes": [
     {
       "parameters": {},

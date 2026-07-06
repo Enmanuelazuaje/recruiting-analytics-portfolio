@@ -1,0 +1,15 @@
+[
+  {
+    "executed_at": "2026-07-06T22:15:05.059Z",
+    "source_file": "vacancies_raw.csv",
+    "rows_in": 918,
+    "duplicates_removed": 18,
+    "rows_valid": 885,
+    "rows_invalid": 15,
+    "reconciliation_check": "OK",
+    "issues_breakdown": {
+      "recruiter_id faltante": 15
+    },
+    "total_monthly_revenue_usd": 904590
+  }
+]
