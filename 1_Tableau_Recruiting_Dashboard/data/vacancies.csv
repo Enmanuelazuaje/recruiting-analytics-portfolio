@@ -1,0 +1,901 @@
+vacancy_id,client_name,role_title,department,recruiter_id,opened_date,filled_date,status,source_channel,monthly_fee_usd,candidate_country
+V0001,Riverbend Clinics,SDR / Appointment Setter,Marketing & Sales,R12,2025-11-14,2025-12-25,Filled,LinkedIn,1260,Peru
+V0002,Harbor Dental Partners,IT Support Specialist,Tech,R02,2026-05-03,2026-05-15,Filled,Job Board,1570,Philippines
+V0003,Atlas E-commerce,Bookkeeper,Finance & Ops,R05,2026-02-20,2026-03-17,Filled,LinkedIn,1760,Colombia
+V0004,Nova Legal Group,Bookkeeper,Finance & Ops,R04,2026-02-13,,Cancelled,Referral,,
+V0005,Everline Solar,Customer Support Rep,Marketing & Sales,R08,2026-04-04,,Cancelled,LinkedIn,,
+V0006,Redwood Media,Full-Stack Developer,Tech,R01,2026-01-28,2026-03-27,Filled,LinkedIn,2900,Mexico
+V0007,Sterling Property Mgmt,Customer Support Rep,Marketing & Sales,R07,2026-02-14,2026-03-29,Filled,LinkedIn,1190,Mexico
+V0008,Summit Logistics,Customer Support Rep,Marketing & Sales,R09,2026-01-21,,Open,Job Board,,
+V0009,Falcon Freight,Accountant,Finance & Ops,R04,2026-02-15,2026-04-08,Filled,Referral,2350,Mexico
+V0010,Solstice Wellness,Customer Support Rep,Marketing & Sales,R08,2026-05-23,,Cancelled,Referral,,
+V0011,Nova Legal Group,Marketing Specialist,Marketing & Sales,R09,2026-04-23,,Cancelled,Job Board,,
+V0012,Atlas E-commerce,Full-Stack Developer,Tech,R02,2025-12-18,,Open,Referral,,
+V0013,Maple & Main Retail,Project Manager,Finance & Ops,R06,2026-06-28,,Open,Job Board,,
+V0014,Solstice Wellness,Customer Support Rep,Marketing & Sales,R09,2026-02-14,2026-04-25,Filled,Internal Database,1320,Colombia
+V0015,Falcon Freight,Executive Assistant,Finance & Ops,R05,2026-06-14,,Cancelled,Referral,,
+V0016,Riverbend Clinics,IT Support Specialist,Tech,R03,2025-12-18,,Cancelled,LinkedIn,,
+V0017,Peak Staffing Co,Data Analyst,Tech,R03,2025-11-27,,Open,LinkedIn,,
+V0018,BlueOak Financial,Marketing Specialist,Marketing & Sales,R07,2025-11-10,,Cancelled,Job Board,,
+V0019,Everline Solar,SDR / Appointment Setter,Marketing & Sales,R09,2025-12-24,2026-02-01,Filled,Job Board,1560,Peru
+V0020,Copperfield Law,IT Support Specialist,Tech,R10,2026-03-09,,Open,Referral,,
+V0021,Peak Staffing Co,IT Support Specialist,Tech,R01,2026-01-24,2026-03-06,Filled,LinkedIn,1750,Peru
+V0022,Copperfield Law,Social Media Manager,Marketing & Sales,R08,2025-10-31,2025-12-24,Filled,LinkedIn,1320,Colombia
+V0023,Peak Staffing Co,Customer Support Rep,Marketing & Sales,R08,2026-06-06,,Cancelled,Job Board,,
+V0024,Sterling Property Mgmt,Accountant,Finance & Ops,R04,2026-01-06,2026-03-13,Filled,Internal Database,1940,Venezuela
+V0025,Vertex Home Services,Data Analyst,Tech,R01,2025-11-20,2025-12-15,Filled,LinkedIn,2140,Mexico
+V0026,Grandview Hospitality,Project Manager,Finance & Ops,R11,2025-12-11,2026-01-01,Filled,LinkedIn,2420,Venezuela
+V0027,Pinnacle Auto Group,Customer Support Rep,Marketing & Sales,R07,2025-10-08,,Open,Referral,,
+V0028,Sterling Property Mgmt,IT Support Specialist,Tech,R01,2026-04-24,2026-06-24,Filled,LinkedIn,1400,Argentina
+V0029,Solstice Wellness,Social Media Manager,Marketing & Sales,R08,2026-06-07,2026-06-26,Filled,Referral,1430,Peru
+V0030,Copperfield Law,Social Media Manager,Marketing & Sales,R07,2026-03-10,2026-04-11,Filled,LinkedIn,1590,Colombia
+V0031,TrueNorth SaaS,QA Engineer,Tech,R01,2025-11-05,,Cancelled,LinkedIn,,
+V0032,Vertex Home Services,Marketing Specialist,Marketing & Sales,R07,2025-10-21,2025-12-12,Filled,Job Board,1910,Argentina
+V0033,ClearPath Accounting,Bookkeeper,Finance & Ops,R06,2026-01-31,2026-03-22,Filled,Internal Database,1700,Venezuela
+V0034,Nova Legal Group,Full-Stack Developer,Tech,R10,2025-10-05,,Cancelled,Referral,,
+V0035,Redwood Media,SDR / Appointment Setter,Marketing & Sales,R08,2026-02-13,,Open,LinkedIn,,
+V0036,BlueOak Financial,Project Manager,Finance & Ops,R04,2026-03-04,,Cancelled,LinkedIn,,
+V0037,Maple & Main Retail,Full-Stack Developer,Tech,R03,2025-12-19,2026-02-12,Filled,Job Board,2630,Mexico
+V0038,Falcon Freight,Executive Assistant,Finance & Ops,R11,2026-06-16,2026-07-04,Filled,Referral,1740,Colombia
+V0039,Solstice Wellness,Executive Assistant,Finance & Ops,R04,2025-10-23,2025-12-07,Filled,Referral,1280,Mexico
+V0040,Summit Logistics,Social Media Manager,Marketing & Sales,R07,2026-05-07,2026-06-07,Filled,Job Board,1870,Peru
+V0041,Vertex Home Services,Marketing Specialist,Marketing & Sales,R12,2025-12-15,2026-01-01,Filled,Job Board,1720,Argentina
+V0042,Riverbend Clinics,Customer Support Rep,Marketing & Sales,R09,2025-11-22,,Open,Job Board,,
+V0043,Pinnacle Auto Group,IT Support Specialist,Tech,R02,2025-12-23,,Open,Job Board,,
+V0044,Summit Logistics,Social Media Manager,Marketing & Sales,R09,2026-02-05,2026-04-06,Filled,Internal Database,1720,Philippines
+V0045,Brightline Health,IT Support Specialist,Tech,R10,2026-01-11,2026-02-21,Filled,Job Board,1890,Mexico
+V0046,Redwood Media,Accountant,Finance & Ops,R06,2026-03-18,,Open,Job Board,,
+V0047,Lakeside Insurance,Accountant,Finance & Ops,R04,2026-03-19,2026-04-22,Filled,LinkedIn,2380,Peru
+V0048,Atlas E-commerce,Marketing Specialist,Marketing & Sales,R09,2026-05-11,,Cancelled,Internal Database,,
+V0049,Redwood Media,IT Support Specialist,Tech,R01,2026-02-08,,Cancelled,Referral,,
+V0050,Copperfield Law,Customer Support Rep,Marketing & Sales,R09,2026-03-19,,Cancelled,LinkedIn,,
+V0051,Pinnacle Auto Group,Accountant,Finance & Ops,R11,2026-03-17,,Cancelled,Job Board,,
+V0052,Vertex Home Services,Accountant,Finance & Ops,R06,2025-12-29,2026-02-17,Filled,Referral,2270,Argentina
+V0053,Solstice Wellness,Marketing Specialist,Marketing & Sales,R12,2026-03-14,2026-05-25,Filled,LinkedIn,1970,Philippines
+V0054,Ironwood Construction,Full-Stack Developer,Tech,R03,2026-02-23,2026-04-06,Filled,LinkedIn,3450,Brazil
+V0055,Pinnacle Auto Group,IT Support Specialist,Tech,R01,2025-12-15,2026-01-05,Filled,Internal Database,1990,Venezuela
+V0056,Everline Solar,Marketing Specialist,Marketing & Sales,R12,2026-01-08,2026-01-20,Filled,Internal Database,1670,Philippines
+V0057,Summit Logistics,Accountant,Finance & Ops,R05,2026-01-21,,Open,Referral,,
+V0058,Everline Solar,Full-Stack Developer,Tech,R02,2026-05-22,,Open,Internal Database,,
+V0059,Solstice Wellness,Marketing Specialist,Marketing & Sales,R12,2026-06-16,,Open,Internal Database,,
+V0060,Falcon Freight,Project Manager,Finance & Ops,R05,2026-02-10,,Open,LinkedIn,,
+V0061,BlueOak Financial,Project Manager,Finance & Ops,R06,2025-11-09,2025-12-01,Filled,LinkedIn,2300,Mexico
+V0062,Summit Logistics,Social Media Manager,Marketing & Sales,R08,2025-12-18,2026-02-27,Filled,LinkedIn,1540,Venezuela
+V0063,Beacon Marketing,Accountant,Finance & Ops,R04,2026-04-18,,Open,LinkedIn,,
+V0064,Grandview Hospitality,Bookkeeper,Finance & Ops,R11,2026-03-02,,Open,Job Board,,
+V0065,ClearPath Accounting,SDR / Appointment Setter,Marketing & Sales,R12,2026-01-21,2026-02-05,Filled,Job Board,1460,Venezuela
+V0066,Atlas E-commerce,Accountant,Finance & Ops,R11,2025-12-24,,Open,Referral,,
+V0067,Harbor Dental Partners,Customer Support Rep,Marketing & Sales,R07,2025-10-14,,Cancelled,LinkedIn,,
+V0068,Everline Solar,Accountant,Finance & Ops,R05,2026-03-17,2026-05-16,Filled,Internal Database,1870,Argentina
+V0069,Peak Staffing Co,Accountant,Finance & Ops,R04,2026-02-07,2026-02-25,Filled,Job Board,2200,Argentina
+V0070,Riverbend Clinics,Customer Support Rep,Marketing & Sales,R07,2025-10-21,,Open,LinkedIn,,
+V0071,Everline Solar,QA Engineer,Tech,R01,2026-05-31,,Cancelled,LinkedIn,,
+V0072,Ironwood Construction,Marketing Specialist,Marketing & Sales,R08,2025-11-28,,Open,Referral,,
+V0073,Quantum IT Services,Accountant,Finance & Ops,R05,2026-04-22,2026-06-04,Filled,Job Board,2150,Colombia
+V0074,Copperfield Law,Customer Support Rep,Marketing & Sales,R07,2025-12-01,2026-01-29,Filled,Job Board,1310,Colombia
+V0075,Quantum IT Services,Data Analyst,Tech,R10,2026-05-04,,Cancelled,LinkedIn,,
+V0076,Sterling Property Mgmt,QA Engineer,Tech,R03,2026-06-25,,Cancelled,Referral,,
+V0077,Lakeside Insurance,Social Media Manager,Marketing & Sales,R09,2026-02-15,,Open,Internal Database,,
+V0078,Harbor Dental Partners,IT Support Specialist,Tech,R10,2026-05-26,,Cancelled,Referral,,
+V0079,Brightline Health,Bookkeeper,Finance & Ops,R06,2026-02-10,2026-03-29,Filled,Referral,1660,Peru
+V0080,Quantum IT Services,IT Support Specialist,Tech,R02,2025-11-13,,Cancelled,Referral,,
+V0081,Atlas E-commerce,Social Media Manager,Marketing & Sales,R12,2026-06-09,,Open,Job Board,,
+V0082,Quantum IT Services,Executive Assistant,Finance & Ops,R11,2026-04-07,2026-05-31,Filled,Referral,1410,Argentina
+V0083,Grandview Hospitality,Executive Assistant,Finance & Ops,R05,2026-02-06,2026-03-05,Filled,Internal Database,1320,Brazil
+V0084,Vertex Home Services,Social Media Manager,Marketing & Sales,R08,2026-01-03,2026-02-20,Filled,LinkedIn,1590,Colombia
+V0085,Summit Logistics,Bookkeeper,Finance & Ops,R06,2025-12-31,2026-02-16,Filled,Referral,1620,Colombia
+V0086,Beacon Marketing,Social Media Manager,Marketing & Sales,R12,2025-12-04,2026-01-21,Filled,Referral,1310,Venezuela
+V0087,Atlas E-commerce,QA Engineer,Tech,R03,2025-10-27,,Open,Referral,,
+V0088,Peak Staffing Co,Marketing Specialist,Marketing & Sales,R08,2025-10-28,2025-12-17,Filled,LinkedIn,1890,Colombia
+V0089,TrueNorth SaaS,Accountant,Finance & Ops,R11,2026-01-24,2026-03-31,Filled,Job Board,1950,Argentina
+V0090,Harbor Dental Partners,Marketing Specialist,Marketing & Sales,R08,2025-11-20,,Cancelled,LinkedIn,,
+V0091,Summit Logistics,SDR / Appointment Setter,Marketing & Sales,R08,2025-11-08,2026-01-19,Filled,LinkedIn,1470,Argentina
+V0092,Falcon Freight,Social Media Manager,Marketing & Sales,R12,2026-02-22,2026-04-08,Filled,Referral,1440,Philippines
+V0093,BlueOak Financial,IT Support Specialist,Tech,R01,2026-05-06,2026-06-21,Filled,LinkedIn,1790,Philippines
+V0094,Atlas E-commerce,QA Engineer,Tech,R03,2026-03-07,2026-04-26,Filled,Internal Database,2170,Brazil
+V0095,Solstice Wellness,SDR / Appointment Setter,Marketing & Sales,R12,2026-06-10,,Cancelled,LinkedIn,,
+V0096,Maple & Main Retail,Executive Assistant,Finance & Ops,R04,2025-10-14,2025-10-28,Filled,Job Board,1600,Philippines
+V0097,TrueNorth SaaS,Marketing Specialist,Marketing & Sales,R08,2025-10-21,2025-12-07,Filled,Referral,1960,Mexico
+V0098,Harbor Dental Partners,Project Manager,Finance & Ops,R11,2025-11-16,2025-12-11,Filled,LinkedIn,2300,Philippines
+V0099,Sterling Property Mgmt,Social Media Manager,Marketing & Sales,R09,2026-06-11,,Cancelled,LinkedIn,,
+V0100,Maple & Main Retail,Executive Assistant,Finance & Ops,R04,2026-03-15,,Open,Internal Database,,
+V0101,Falcon Freight,Project Manager,Finance & Ops,R04,2026-04-30,,Cancelled,Referral,,
+V0102,Beacon Marketing,Data Analyst,Tech,R03,2026-01-13,2026-03-22,Filled,LinkedIn,2550,Brazil
+V0103,Peak Staffing Co,Customer Support Rep,Marketing & Sales,R08,2026-01-31,2026-04-05,Filled,Internal Database,1110,Colombia
+V0104,Copperfield Law,Full-Stack Developer,Tech,R01,2026-05-25,,Cancelled,Job Board,,
+V0105,Vertex Home Services,Accountant,Finance & Ops,R11,2026-06-05,,Cancelled,Internal Database,,
+V0106,Copperfield Law,SDR / Appointment Setter,Marketing & Sales,R07,2025-12-09,2026-02-12,Filled,LinkedIn,1670,Argentina
+V0107,BlueOak Financial,Data Analyst,Tech,R03,2026-02-22,,Open,Referral,,
+V0108,Vertex Home Services,Project Manager,Finance & Ops,R06,2026-03-26,2026-06-04,Filled,Internal Database,2490,Argentina
+V0109,Solstice Wellness,IT Support Specialist,Tech,R02,2026-04-15,,Open,Referral,,
+V0110,Cascade Realty,Accountant,Finance & Ops,R05,2026-04-16,2026-06-09,Filled,Internal Database,1630,Philippines
+V0111,Beacon Marketing,Project Manager,Finance & Ops,R11,2025-11-21,2025-12-22,Filled,Job Board,2130,Colombia
+V0112,ClearPath Accounting,Executive Assistant,Finance & Ops,R11,2026-03-23,,Cancelled,Job Board,,
+V0113,Solstice Wellness,Project Manager,Finance & Ops,R04,2025-10-19,2025-12-06,Filled,LinkedIn,2620,Mexico
+V0114,ClearPath Accounting,Full-Stack Developer,Tech,R10,2025-11-21,2025-12-06,Filled,Job Board,2730,Colombia
+V0115,Maple & Main Retail,Executive Assistant,Finance & Ops,R06,2026-04-02,2026-06-05,Filled,Job Board,1350,Peru
+V0116,TrueNorth SaaS,QA Engineer,Tech,R01,2025-12-29,2026-02-09,Filled,LinkedIn,2110,Venezuela
+V0117,Maple & Main Retail,Project Manager,Finance & Ops,R11,2026-02-08,2026-04-20,Filled,Referral,2010,Argentina
+V0118,Quantum IT Services,Full-Stack Developer,Tech,R03,2026-05-15,,Open,LinkedIn,,
+V0119,TrueNorth SaaS,Executive Assistant,Finance & Ops,R11,2026-01-10,,Open,LinkedIn,,
+V0120,Brightline Health,Executive Assistant,Finance & Ops,R04,2026-03-01,,Open,Referral,,
+V0121,Riverbend Clinics,Customer Support Rep,Marketing & Sales,R12,2025-10-26,,Open,Job Board,,
+V0122,Falcon Freight,IT Support Specialist,Tech,R03,2026-01-06,,Cancelled,LinkedIn,,
+V0123,Solstice Wellness,Customer Support Rep,Marketing & Sales,R09,2025-10-21,,Open,LinkedIn,,
+V0124,Copperfield Law,Executive Assistant,Finance & Ops,R11,2026-03-17,2026-05-14,Filled,Internal Database,1280,Peru
+V0125,Cascade Realty,QA Engineer,Tech,R10,2026-02-09,,Open,Referral,,
+V0126,Grandview Hospitality,Full-Stack Developer,Tech,R02,2025-12-12,,Open,LinkedIn,,
+V0127,Atlas E-commerce,Accountant,Finance & Ops,R06,2025-10-08,2025-11-22,Filled,Job Board,1960,Peru
+V0128,Peak Staffing Co,Bookkeeper,Finance & Ops,R05,2025-11-25,2026-01-17,Filled,Job Board,1670,Peru
+V0129,Summit Logistics,Customer Support Rep,Marketing & Sales,R09,2026-05-26,,Cancelled,LinkedIn,,
+V0130,Redwood Media,Project Manager,Finance & Ops,R04,2025-11-29,2026-01-29,Filled,Job Board,2480,Venezuela
+V0131,Riverbend Clinics,Social Media Manager,Marketing & Sales,R08,2026-05-03,,Open,Referral,,
+V0132,Redwood Media,Executive Assistant,Finance & Ops,R06,2025-10-17,2025-11-28,Filled,LinkedIn,1470,Philippines
+V0133,Sterling Property Mgmt,Customer Support Rep,Marketing & Sales,R09,2026-04-07,2026-05-04,Filled,LinkedIn,1240,Philippines
+V0134,TrueNorth SaaS,IT Support Specialist,Tech,R01,2025-10-11,,Open,LinkedIn,,
+V0135,Riverbend Clinics,SDR / Appointment Setter,Marketing & Sales,R08,2026-01-15,,Open,LinkedIn,,
+V0136,BlueOak Financial,QA Engineer,Tech,R03,2025-12-06,,Open,LinkedIn,,
+V0137,Cascade Realty,IT Support Specialist,Tech,R01,2026-03-15,2026-05-19,Filled,Job Board,1430,Peru
+V0138,Summit Logistics,Project Manager,Finance & Ops,R06,2026-05-18,2026-06-27,Filled,Job Board,2100,Peru
+V0139,Beacon Marketing,Customer Support Rep,Marketing & Sales,R09,2026-06-24,,Cancelled,Job Board,,
+V0140,ClearPath Accounting,Accountant,Finance & Ops,R11,2025-11-25,,Cancelled,Job Board,,
+V0141,Atlas E-commerce,Full-Stack Developer,Tech,R03,2025-12-04,,Cancelled,Internal Database,,
+V0142,Falcon Freight,SDR / Appointment Setter,Marketing & Sales,R12,2026-02-28,2026-03-26,Filled,Job Board,1460,Philippines
+V0143,Sterling Property Mgmt,SDR / Appointment Setter,Marketing & Sales,R12,2026-01-19,2026-03-15,Filled,Referral,1340,Philippines
+V0144,Maple & Main Retail,Social Media Manager,Marketing & Sales,R09,2025-11-18,2026-01-16,Filled,Internal Database,1700,Mexico
+V0145,BlueOak Financial,Full-Stack Developer,Tech,R01,2025-11-16,2026-01-14,Filled,Referral,2510,Philippines
+V0146,Solstice Wellness,Marketing Specialist,Marketing & Sales,R07,2026-03-18,2026-05-23,Filled,LinkedIn,2110,Philippines
+V0147,Beacon Marketing,Executive Assistant,Finance & Ops,R06,2026-03-09,2026-04-09,Filled,LinkedIn,1500,Brazil
+V0148,Pinnacle Auto Group,Full-Stack Developer,Tech,R03,2026-03-29,2026-05-08,Filled,Job Board,2710,Philippines
+V0149,Redwood Media,Marketing Specialist,Marketing & Sales,R09,2025-10-14,2025-12-04,Filled,LinkedIn,1690,Argentina
+V0150,Solstice Wellness,QA Engineer,Tech,R01,2026-04-24,2026-05-09,Filled,Referral,2310,Colombia
+V0151,TrueNorth SaaS,Accountant,Finance & Ops,R11,2026-05-03,2026-06-25,Filled,Referral,1900,Philippines
+V0152,Lakeside Insurance,Data Analyst,Tech,R02,2025-12-19,,Cancelled,Referral,,
+V0153,Pinnacle Auto Group,Accountant,Finance & Ops,R11,2026-06-06,2026-07-02,Filled,LinkedIn,1770,Argentina
+V0154,Vertex Home Services,Customer Support Rep,Marketing & Sales,R09,2026-06-07,2026-06-26,Filled,LinkedIn,1300,Colombia
+V0155,Pinnacle Auto Group,IT Support Specialist,Tech,R03,2025-12-10,2026-02-23,Filled,LinkedIn,1470,Brazil
+V0156,Nova Legal Group,Accountant,Finance & Ops,R05,2026-06-30,,Cancelled,Referral,,
+V0157,Pinnacle Auto Group,Social Media Manager,Marketing & Sales,R12,2025-10-22,2025-12-13,Filled,Referral,1850,Peru
+V0158,Riverbend Clinics,Social Media Manager,Marketing & Sales,R09,2026-05-02,2026-06-24,Filled,Referral,1310,Mexico
+V0159,Atlas E-commerce,Social Media Manager,Marketing & Sales,R07,2026-04-04,2026-06-10,Filled,Referral,1360,Peru
+V0160,Falcon Freight,Accountant,Finance & Ops,R06,2026-03-08,2026-03-29,Filled,LinkedIn,2220,Peru
+V0161,Cascade Realty,SDR / Appointment Setter,Marketing & Sales,R09,2026-01-08,2026-02-07,Filled,LinkedIn,1770,Mexico
+V0162,Everline Solar,IT Support Specialist,Tech,R02,2025-12-28,,Cancelled,Job Board,,
+V0163,Sterling Property Mgmt,Project Manager,Finance & Ops,R06,2026-05-18,,Open,LinkedIn,,
+V0164,Sterling Property Mgmt,Project Manager,Finance & Ops,R06,2026-03-05,2026-03-26,Filled,Referral,2320,Argentina
+V0165,Riverbend Clinics,Data Analyst,Tech,R03,2026-04-07,2026-04-30,Filled,Referral,2500,Peru
+V0166,ClearPath Accounting,Project Manager,Finance & Ops,R11,2025-10-22,,Open,Job Board,,
+V0167,Nova Legal Group,SDR / Appointment Setter,Marketing & Sales,R07,2025-12-17,2026-02-10,Filled,Referral,1690,Brazil
+V0168,Redwood Media,QA Engineer,Tech,R02,2025-10-21,,Cancelled,LinkedIn,,
+V0169,Falcon Freight,Executive Assistant,Finance & Ops,R11,2026-04-17,,Open,Job Board,,
+V0170,Maple & Main Retail,Full-Stack Developer,Tech,R01,2026-03-18,2026-05-01,Filled,Internal Database,2830,Brazil
+V0171,Falcon Freight,Marketing Specialist,Marketing & Sales,R09,2025-12-16,2026-02-10,Filled,Job Board,1960,Argentina
+V0172,BlueOak Financial,Accountant,Finance & Ops,R04,2025-12-06,2026-01-29,Filled,Job Board,1900,Philippines
+V0173,Brightline Health,Social Media Manager,Marketing & Sales,R07,2026-06-27,,Cancelled,LinkedIn,,
+V0174,BlueOak Financial,QA Engineer,Tech,R03,2026-01-18,,Open,LinkedIn,,
+V0175,Riverbend Clinics,Executive Assistant,Finance & Ops,R04,2025-11-21,,Cancelled,LinkedIn,,
+V0176,Maple & Main Retail,QA Engineer,Tech,R02,2026-01-01,,Cancelled,Job Board,,
+V0177,Vertex Home Services,Project Manager,Finance & Ops,R11,2026-02-23,2026-05-06,Filled,LinkedIn,2220,Philippines
+V0178,Harbor Dental Partners,Marketing Specialist,Marketing & Sales,R12,2026-05-14,,Cancelled,Job Board,,
+V0179,Cascade Realty,Marketing Specialist,Marketing & Sales,R09,2025-12-10,2026-02-07,Filled,Job Board,1840,Peru
+V0180,BlueOak Financial,SDR / Appointment Setter,Marketing & Sales,R09,2025-12-03,2026-02-10,Filled,Job Board,1300,Peru
+V0181,Summit Logistics,Full-Stack Developer,Tech,R10,2026-01-22,,Open,Referral,,
+V0182,ClearPath Accounting,Bookkeeper,Finance & Ops,R11,2026-01-29,,Open,Internal Database,,
+V0183,BlueOak Financial,Social Media Manager,Marketing & Sales,R08,2026-03-21,2026-06-01,Filled,Job Board,1470,Brazil
+V0184,BlueOak Financial,Project Manager,Finance & Ops,R04,2026-05-18,,Open,Referral,,
+V0185,Cascade Realty,Social Media Manager,Marketing & Sales,R12,2026-06-28,,Cancelled,LinkedIn,,
+V0186,Copperfield Law,Accountant,Finance & Ops,R04,2026-05-23,2026-06-06,Filled,Referral,2320,Brazil
+V0187,Pinnacle Auto Group,Social Media Manager,Marketing & Sales,R09,2025-12-13,2026-01-24,Filled,LinkedIn,1670,Peru
+V0188,Beacon Marketing,Customer Support Rep,Marketing & Sales,R09,2025-11-13,2025-11-27,Filled,LinkedIn,1360,Venezuela
+V0189,Redwood Media,Accountant,Finance & Ops,R06,2026-04-10,,Cancelled,LinkedIn,,
+V0190,Falcon Freight,Customer Support Rep,Marketing & Sales,R09,2025-11-23,2026-01-17,Filled,LinkedIn,1280,Philippines
+V0191,Quantum IT Services,Customer Support Rep,Marketing & Sales,R12,2026-05-26,,Cancelled,Job Board,,
+V0192,Ironwood Construction,Project Manager,Finance & Ops,R06,2025-10-19,2025-11-05,Filled,Referral,2710,Argentina
+V0193,Redwood Media,SDR / Appointment Setter,Marketing & Sales,R09,2026-05-31,,Cancelled,Internal Database,,
+V0194,Sterling Property Mgmt,Data Analyst,Tech,R03,2026-03-19,2026-05-21,Filled,Internal Database,2160,Brazil
+V0195,Nova Legal Group,Accountant,Finance & Ops,R05,2026-03-23,2026-05-08,Filled,Job Board,2000,Philippines
+V0196,Maple & Main Retail,Full-Stack Developer,Tech,R02,2026-05-09,2026-05-31,Filled,LinkedIn,2750,Argentina
+V0197,Solstice Wellness,Project Manager,Finance & Ops,R05,2026-05-07,,Cancelled,Internal Database,,
+V0198,Nova Legal Group,Bookkeeper,Finance & Ops,R06,2026-05-11,,Cancelled,Job Board,,
+V0199,Summit Logistics,Accountant,Finance & Ops,R05,2026-04-05,,Open,LinkedIn,,
+V0200,Sterling Property Mgmt,IT Support Specialist,Tech,R03,2026-04-06,2026-05-07,Filled,Internal Database,1740,Brazil
+V0201,ClearPath Accounting,Bookkeeper,Finance & Ops,R04,2026-05-16,,Cancelled,Job Board,,
+V0202,Grandview Hospitality,IT Support Specialist,Tech,R01,2025-11-28,,Cancelled,LinkedIn,,
+V0203,Vertex Home Services,Executive Assistant,Finance & Ops,R05,2026-05-17,,Open,LinkedIn,,
+V0204,Maple & Main Retail,Full-Stack Developer,Tech,R02,2026-05-20,,Open,Internal Database,,
+V0205,Harbor Dental Partners,Bookkeeper,Finance & Ops,R04,2026-03-27,2026-05-16,Filled,Job Board,1470,Philippines
+V0206,BlueOak Financial,Social Media Manager,Marketing & Sales,R09,2025-12-29,2026-02-04,Filled,LinkedIn,1370,Philippines
+V0207,Nova Legal Group,Project Manager,Finance & Ops,R06,2025-10-14,2025-11-11,Filled,LinkedIn,2330,Peru
+V0208,BlueOak Financial,Accountant,Finance & Ops,R11,2026-06-03,,Cancelled,Internal Database,,
+V0209,Everline Solar,Customer Support Rep,Marketing & Sales,R12,2025-11-07,2025-12-05,Filled,Referral,1360,Philippines
+V0210,Cascade Realty,Marketing Specialist,Marketing & Sales,R08,2026-01-02,2026-01-21,Filled,Referral,2140,Philippines
+V0211,Ironwood Construction,Executive Assistant,Finance & Ops,R05,2025-12-24,2026-02-18,Filled,Job Board,1630,Peru
+V0212,Falcon Freight,Executive Assistant,Finance & Ops,R06,2026-01-09,2026-02-01,Filled,LinkedIn,1380,Peru
+V0213,TrueNorth SaaS,Marketing Specialist,Marketing & Sales,R08,2025-12-18,,Cancelled,LinkedIn,,
+V0214,Falcon Freight,Data Analyst,Tech,R01,2025-11-11,,Open,LinkedIn,,
+V0215,Ironwood Construction,Marketing Specialist,Marketing & Sales,R07,2026-05-02,2026-06-20,Filled,Referral,1940,Brazil
+V0216,Pinnacle Auto Group,Customer Support Rep,Marketing & Sales,R09,2026-04-26,2026-05-28,Filled,Referral,1440,Venezuela
+V0217,BlueOak Financial,IT Support Specialist,Tech,R02,2026-03-24,2026-05-19,Filled,Job Board,1830,Venezuela
+V0218,BlueOak Financial,SDR / Appointment Setter,Marketing & Sales,R09,2025-11-24,2026-02-01,Filled,LinkedIn,1270,Mexico
+V0219,ClearPath Accounting,Executive Assistant,Finance & Ops,R11,2026-04-15,2026-05-17,Filled,Internal Database,1720,Philippines
+V0220,Beacon Marketing,Social Media Manager,Marketing & Sales,R08,2026-03-10,,Cancelled,Internal Database,,
+V0221,Vertex Home Services,Project Manager,Finance & Ops,R04,2025-10-12,,Open,Referral,,
+V0222,Grandview Hospitality,Data Analyst,Tech,R03,2025-10-26,2026-01-06,Filled,LinkedIn,2520,Argentina
+V0223,Redwood Media,Full-Stack Developer,Tech,R02,2026-05-09,,Open,LinkedIn,,
+V0224,Grandview Hospitality,Data Analyst,Tech,R03,2026-01-08,2026-03-18,Filled,LinkedIn,1950,Philippines
+V0225,Grandview Hospitality,Marketing Specialist,Marketing & Sales,R08,2025-11-30,,Open,Internal Database,,
+V0226,ClearPath Accounting,QA Engineer,Tech,R10,2026-01-10,2026-02-08,Filled,Job Board,1840,Brazil
+V0227,Riverbend Clinics,SDR / Appointment Setter,Marketing & Sales,R08,2026-05-22,,Cancelled,LinkedIn,,
+V0228,TrueNorth SaaS,Accountant,Finance & Ops,R06,2026-03-03,2026-05-16,Filled,LinkedIn,2010,Brazil
+V0229,Solstice Wellness,Data Analyst,Tech,R03,2026-04-07,,Cancelled,Internal Database,,
+V0230,Summit Logistics,Customer Support Rep,Marketing & Sales,R12,2025-10-14,2025-11-24,Filled,Referral,1430,Brazil
+V0231,TrueNorth SaaS,QA Engineer,Tech,R10,2026-06-26,,Cancelled,Internal Database,,
+V0232,Vertex Home Services,Full-Stack Developer,Tech,R01,2026-01-06,2026-03-11,Filled,Referral,2860,Brazil
+V0233,Maple & Main Retail,Marketing Specialist,Marketing & Sales,R07,2026-05-30,,Cancelled,Referral,,
+V0234,Everline Solar,Accountant,Finance & Ops,R05,2026-03-10,2026-05-06,Filled,Internal Database,2030,Brazil
+V0235,Ironwood Construction,Customer Support Rep,Marketing & Sales,R12,2026-02-13,2026-04-04,Filled,Job Board,1220,Mexico
+V0236,Cascade Realty,Social Media Manager,Marketing & Sales,R12,2026-01-15,2026-03-03,Filled,Referral,1510,Argentina
+V0237,Ironwood Construction,SDR / Appointment Setter,Marketing & Sales,R12,2026-04-13,,Open,LinkedIn,,
+V0238,Vertex Home Services,Social Media Manager,Marketing & Sales,R09,2025-11-10,,Open,LinkedIn,,
+V0239,Summit Logistics,SDR / Appointment Setter,Marketing & Sales,R09,2026-02-16,2026-03-30,Filled,Job Board,1570,Mexico
+V0240,Maple & Main Retail,SDR / Appointment Setter,Marketing & Sales,R08,2026-01-24,2026-04-06,Filled,Job Board,1450,Colombia
+V0241,Beacon Marketing,Data Analyst,Tech,R10,2025-12-20,,Cancelled,Job Board,,
+V0242,Falcon Freight,Executive Assistant,Finance & Ops,R06,2026-03-14,,Cancelled,Referral,,
+V0243,Atlas E-commerce,SDR / Appointment Setter,Marketing & Sales,R08,2025-10-20,2025-11-05,Filled,Job Board,1700,Philippines
+V0244,Ironwood Construction,QA Engineer,Tech,R01,2026-02-26,2026-03-23,Filled,Referral,2250,Argentina
+V0245,Lakeside Insurance,Customer Support Rep,Marketing & Sales,R12,2026-06-26,,Open,LinkedIn,,
+V0246,Brightline Health,Full-Stack Developer,Tech,R02,2026-03-19,,Cancelled,Job Board,,
+V0247,Pinnacle Auto Group,Executive Assistant,Finance & Ops,R05,2026-01-07,2026-03-11,Filled,Referral,1580,Philippines
+V0248,Brightline Health,Full-Stack Developer,Tech,R01,2026-04-24,2026-06-16,Filled,LinkedIn,2550,Mexico
+V0249,Lakeside Insurance,IT Support Specialist,Tech,R03,2026-05-17,,Open,Job Board,,
+V0250,Atlas E-commerce,Social Media Manager,Marketing & Sales,R07,2026-01-29,,Cancelled,Job Board,,
+V0251,Riverbend Clinics,Social Media Manager,Marketing & Sales,R07,2026-03-09,,Cancelled,LinkedIn,,
+V0252,Pinnacle Auto Group,QA Engineer,Tech,R02,2026-06-02,,Cancelled,Job Board,,
+V0253,Copperfield Law,Project Manager,Finance & Ops,R05,2026-01-20,,Cancelled,Referral,,
+V0254,TrueNorth SaaS,Social Media Manager,Marketing & Sales,R07,2026-04-04,,Open,Referral,,
+V0255,Copperfield Law,QA Engineer,Tech,R10,2026-03-17,2026-05-30,Filled,Referral,1960,Colombia
+V0256,Sterling Property Mgmt,Data Analyst,Tech,R02,2026-05-21,2026-06-09,Filled,Job Board,2220,Peru
+V0257,Nova Legal Group,Executive Assistant,Finance & Ops,R11,2025-10-12,2025-11-20,Filled,LinkedIn,1200,Peru
+V0258,Summit Logistics,Bookkeeper,Finance & Ops,R04,2025-11-02,,Open,LinkedIn,,
+V0259,Atlas E-commerce,QA Engineer,Tech,R10,2025-12-09,2026-02-16,Filled,LinkedIn,2510,Philippines
+V0260,BlueOak Financial,Customer Support Rep,Marketing & Sales,R09,2025-12-08,2026-02-08,Filled,Job Board,1600,Peru
+V0261,Grandview Hospitality,IT Support Specialist,Tech,R01,2025-10-02,,Open,LinkedIn,,
+V0262,Maple & Main Retail,IT Support Specialist,Tech,R10,2026-02-04,2026-03-02,Filled,Referral,1570,Colombia
+V0263,Maple & Main Retail,Data Analyst,Tech,R02,2026-02-01,2026-04-11,Filled,Job Board,2320,Peru
+V0264,Everline Solar,Data Analyst,Tech,R01,2026-02-03,2026-03-14,Filled,LinkedIn,2060,Philippines
+V0265,TrueNorth SaaS,SDR / Appointment Setter,Marketing & Sales,R08,2026-02-26,,Open,Referral,,
+V0266,Ironwood Construction,Customer Support Rep,Marketing & Sales,R08,2026-03-14,2026-04-23,Filled,LinkedIn,1170,Venezuela
+V0267,Maple & Main Retail,SDR / Appointment Setter,Marketing & Sales,R12,2025-12-29,2026-02-23,Filled,Referral,1230,Brazil
+V0268,Grandview Hospitality,SDR / Appointment Setter,Marketing & Sales,R12,2026-03-13,2026-04-17,Filled,Referral,1380,Philippines
+V0269,Pinnacle Auto Group,IT Support Specialist,Tech,R02,2026-03-03,,Open,Referral,,
+V0270,Redwood Media,QA Engineer,Tech,R02,2026-04-17,2026-05-09,Filled,LinkedIn,2060,Venezuela
+V0271,Nova Legal Group,Social Media Manager,Marketing & Sales,R07,2026-01-06,2026-01-23,Filled,LinkedIn,1700,Philippines
+V0272,Vertex Home Services,Marketing Specialist,Marketing & Sales,R12,2026-01-20,2026-03-11,Filled,Internal Database,2130,Colombia
+V0273,Atlas E-commerce,Social Media Manager,Marketing & Sales,R12,2025-11-30,,Open,Internal Database,,
+V0274,Lakeside Insurance,SDR / Appointment Setter,Marketing & Sales,R09,2026-03-14,2026-05-10,Filled,LinkedIn,1520,Argentina
+V0275,Vertex Home Services,Project Manager,Finance & Ops,R04,2026-05-27,,Open,LinkedIn,,
+V0276,Ironwood Construction,Accountant,Finance & Ops,R05,2025-10-24,,Cancelled,LinkedIn,,
+V0277,Everline Solar,Bookkeeper,Finance & Ops,R11,2026-01-26,2026-03-22,Filled,Job Board,1450,Argentina
+V0278,BlueOak Financial,Social Media Manager,Marketing & Sales,R12,2026-06-09,,Cancelled,Job Board,,
+V0279,Maple & Main Retail,Project Manager,Finance & Ops,R04,2026-01-03,2026-01-24,Filled,LinkedIn,2760,Philippines
+V0280,Brightline Health,Data Analyst,Tech,R02,2026-04-30,,Open,LinkedIn,,
+V0281,Beacon Marketing,Project Manager,Finance & Ops,R04,2026-04-10,2026-06-22,Filled,LinkedIn,2600,Brazil
+V0282,Copperfield Law,SDR / Appointment Setter,Marketing & Sales,R07,2026-04-29,2026-06-16,Filled,Job Board,1630,Colombia
+V0283,Vertex Home Services,Customer Support Rep,Marketing & Sales,R08,2026-05-09,2026-06-09,Filled,Job Board,1150,Mexico
+V0284,Sterling Property Mgmt,Executive Assistant,Finance & Ops,R06,2026-03-31,,Open,Referral,,
+V0285,Nova Legal Group,Social Media Manager,Marketing & Sales,R09,2026-01-24,,Cancelled,Referral,,
+V0286,Beacon Marketing,Accountant,Finance & Ops,R04,2026-06-01,,Cancelled,Job Board,,
+V0287,Vertex Home Services,Customer Support Rep,Marketing & Sales,R07,2026-03-19,,Open,Internal Database,,
+V0288,Grandview Hospitality,Social Media Manager,Marketing & Sales,R09,2026-06-01,,Cancelled,Referral,,
+V0289,Quantum IT Services,Data Analyst,Tech,R03,2025-12-31,2026-01-30,Filled,Job Board,2050,Philippines
+V0290,Grandview Hospitality,Full-Stack Developer,Tech,R02,2026-03-03,2026-05-03,Filled,LinkedIn,3020,Brazil
+V0291,Pinnacle Auto Group,Social Media Manager,Marketing & Sales,R07,2025-12-11,2025-12-29,Filled,LinkedIn,1880,Colombia
+V0292,Sterling Property Mgmt,Full-Stack Developer,Tech,R10,2026-03-24,,Open,Referral,,
+V0293,Everline Solar,Bookkeeper,Finance & Ops,R11,2026-04-11,2026-06-10,Filled,Job Board,1650,Colombia
+V0294,Atlas E-commerce,IT Support Specialist,Tech,R01,2025-11-07,2025-12-08,Filled,LinkedIn,1630,Brazil
+V0295,Cascade Realty,Full-Stack Developer,Tech,R01,2025-11-16,,Open,LinkedIn,,
+V0296,Nova Legal Group,QA Engineer,Tech,R10,2026-05-09,2026-06-03,Filled,LinkedIn,2210,Colombia
+V0297,Grandview Hospitality,Full-Stack Developer,Tech,R10,2026-03-16,2026-04-07,Filled,Internal Database,2860,Brazil
+V0298,Ironwood Construction,IT Support Specialist,Tech,R02,2026-06-24,,Cancelled,LinkedIn,,
+V0299,Nova Legal Group,QA Engineer,Tech,R02,2025-11-02,2026-01-14,Filled,LinkedIn,2140,Philippines
+V0300,ClearPath Accounting,IT Support Specialist,Tech,R02,2026-06-11,2026-06-23,Filled,Job Board,1480,Venezuela
+V0301,ClearPath Accounting,Accountant,Finance & Ops,R11,2026-03-18,2026-04-16,Filled,Job Board,2250,Argentina
+V0302,Solstice Wellness,Social Media Manager,Marketing & Sales,R12,2026-01-11,2026-03-04,Filled,Job Board,1880,Argentina
+V0303,Cascade Realty,Project Manager,Finance & Ops,R06,2026-02-02,2026-04-05,Filled,Internal Database,2730,Argentina
+V0304,Sterling Property Mgmt,IT Support Specialist,Tech,R01,2026-01-01,,Open,Job Board,,
+V0305,Peak Staffing Co,Social Media Manager,Marketing & Sales,R12,2025-11-05,,Cancelled,LinkedIn,,
+V0306,TrueNorth SaaS,QA Engineer,Tech,R10,2026-05-05,,Cancelled,Referral,,
+V0307,Cascade Realty,SDR / Appointment Setter,Marketing & Sales,R07,2026-05-03,,Open,Job Board,,
+V0308,Everline Solar,Customer Support Rep,Marketing & Sales,R08,2026-03-31,,Cancelled,LinkedIn,,
+V0309,Redwood Media,Accountant,Finance & Ops,R04,2025-11-24,2026-01-03,Filled,Referral,1780,Venezuela
+V0310,Ironwood Construction,Customer Support Rep,Marketing & Sales,R08,2026-06-14,,Cancelled,Referral,,
+V0311,Beacon Marketing,Full-Stack Developer,Tech,R02,2025-11-29,2026-01-06,Filled,LinkedIn,2780,Peru
+V0312,ClearPath Accounting,Full-Stack Developer,Tech,R10,2026-05-13,2026-06-08,Filled,Job Board,2730,Colombia
+V0313,Pinnacle Auto Group,Customer Support Rep,Marketing & Sales,R08,2025-12-24,2026-02-16,Filled,Internal Database,1380,Peru
+V0314,Solstice Wellness,IT Support Specialist,Tech,R02,2026-04-26,2026-06-27,Filled,Job Board,1790,Colombia
+V0315,Everline Solar,IT Support Specialist,Tech,R10,2026-05-19,2026-06-26,Filled,Job Board,1820,Argentina
+V0316,Maple & Main Retail,Full-Stack Developer,Tech,R02,2025-11-22,2025-12-18,Filled,Internal Database,2620,Argentina
+V0317,Sterling Property Mgmt,SDR / Appointment Setter,Marketing & Sales,R12,2026-03-10,2026-05-05,Filled,Job Board,1550,Argentina
+V0318,Ironwood Construction,Customer Support Rep,Marketing & Sales,R07,2026-03-02,,Cancelled,LinkedIn,,
+V0319,Harbor Dental Partners,Bookkeeper,Finance & Ops,R11,2025-12-12,2026-02-11,Filled,Referral,1380,Venezuela
+V0320,Sterling Property Mgmt,SDR / Appointment Setter,Marketing & Sales,R08,2025-12-28,2026-02-18,Filled,Job Board,1280,Philippines
+V0321,Maple & Main Retail,Bookkeeper,Finance & Ops,R11,2025-10-05,2025-12-19,Filled,Referral,1790,Venezuela
+V0322,Summit Logistics,Social Media Manager,Marketing & Sales,R12,2026-05-16,2026-06-25,Filled,LinkedIn,1640,Argentina
+V0323,Grandview Hospitality,SDR / Appointment Setter,Marketing & Sales,R08,2026-02-25,,Open,Referral,,
+V0324,Grandview Hospitality,Marketing Specialist,Marketing & Sales,R09,2025-11-28,,Open,Job Board,,
+V0325,Ironwood Construction,Data Analyst,Tech,R02,2026-05-14,,Open,Internal Database,,
+V0326,Cascade Realty,Data Analyst,Tech,R03,2026-05-19,,Cancelled,Job Board,,
+V0327,Harbor Dental Partners,IT Support Specialist,Tech,R03,2026-01-16,,Open,Job Board,,
+V0328,Quantum IT Services,IT Support Specialist,Tech,R01,2026-01-14,2026-02-16,Filled,LinkedIn,1720,Argentina
+V0329,Lakeside Insurance,Marketing Specialist,Marketing & Sales,R07,2026-02-14,2026-04-19,Filled,Internal Database,2030,Colombia
+V0330,Maple & Main Retail,QA Engineer,Tech,R02,2025-12-07,2026-01-19,Filled,Referral,2060,Philippines
+V0331,Copperfield Law,QA Engineer,Tech,R10,2026-02-15,2026-03-10,Filled,Job Board,1860,Venezuela
+V0332,Everline Solar,Social Media Manager,Marketing & Sales,R12,2026-04-07,,Open,Job Board,,
+V0333,Vertex Home Services,Full-Stack Developer,Tech,R03,2026-05-23,,Open,Internal Database,,
+V0334,TrueNorth SaaS,IT Support Specialist,Tech,R03,2026-06-11,,Cancelled,Internal Database,,
+V0335,Cascade Realty,Bookkeeper,Finance & Ops,R04,2025-10-25,2026-01-03,Filled,Internal Database,1770,Colombia
+V0336,BlueOak Financial,QA Engineer,Tech,R10,2026-05-14,2026-06-20,Filled,Internal Database,2570,Brazil
+V0337,Maple & Main Retail,Executive Assistant,Finance & Ops,R06,2025-12-21,2026-01-12,Filled,Internal Database,1420,Argentina
+V0338,Pinnacle Auto Group,QA Engineer,Tech,R10,2025-10-27,,Cancelled,Job Board,,
+V0339,Maple & Main Retail,Social Media Manager,Marketing & Sales,R07,2025-11-18,2025-12-28,Filled,Referral,1350,Peru
+V0340,Beacon Marketing,Data Analyst,Tech,R01,2026-03-25,,Open,LinkedIn,,
+V0341,Atlas E-commerce,Accountant,Finance & Ops,R04,2025-11-15,2026-01-04,Filled,Job Board,1890,Mexico
+V0342,Redwood Media,QA Engineer,Tech,R01,2025-12-13,2026-01-15,Filled,Job Board,1810,Venezuela
+V0343,Cascade Realty,Customer Support Rep,Marketing & Sales,R12,2025-12-17,2026-01-25,Filled,LinkedIn,1320,Colombia
+V0344,Peak Staffing Co,Full-Stack Developer,Tech,R03,2026-04-15,,Open,LinkedIn,,
+V0345,Vertex Home Services,Full-Stack Developer,Tech,R03,2026-02-05,,Open,Referral,,
+V0346,Atlas E-commerce,SDR / Appointment Setter,Marketing & Sales,R12,2026-01-05,2026-02-16,Filled,LinkedIn,1230,Venezuela
+V0347,Atlas E-commerce,Project Manager,Finance & Ops,R04,2025-11-06,,Open,Internal Database,,
+V0348,Everline Solar,Marketing Specialist,Marketing & Sales,R09,2026-05-04,,Cancelled,LinkedIn,,
+V0349,Atlas E-commerce,Marketing Specialist,Marketing & Sales,R07,2025-11-04,2025-11-23,Filled,Referral,1530,Philippines
+V0350,Lakeside Insurance,Customer Support Rep,Marketing & Sales,R12,2026-06-14,,Cancelled,LinkedIn,,
+V0351,Atlas E-commerce,Full-Stack Developer,Tech,R02,2026-06-19,,Open,Referral,,
+V0352,Summit Logistics,Customer Support Rep,Marketing & Sales,R09,2025-11-03,,Cancelled,LinkedIn,,
+V0353,Brightline Health,Accountant,Finance & Ops,R11,2025-11-29,2026-01-02,Filled,Job Board,1640,Colombia
+V0354,Redwood Media,Social Media Manager,Marketing & Sales,R08,2025-10-06,2025-11-20,Filled,LinkedIn,1510,Mexico
+V0355,Quantum IT Services,Executive Assistant,Finance & Ops,R04,2025-11-30,2025-12-20,Filled,Internal Database,1460,Argentina
+V0356,TrueNorth SaaS,Customer Support Rep,Marketing & Sales,R12,2025-11-09,2026-01-23,Filled,LinkedIn,1280,Philippines
+V0357,Peak Staffing Co,QA Engineer,Tech,R01,2026-02-08,,Open,Job Board,,
+V0358,Harbor Dental Partners,Data Analyst,Tech,R01,2025-10-23,2025-12-23,Filled,Internal Database,2230,Mexico
+V0359,Nova Legal Group,Data Analyst,Tech,R02,2026-05-03,2026-06-24,Filled,Referral,2190,Argentina
+V0360,Nova Legal Group,Full-Stack Developer,Tech,R01,2026-06-15,2026-07-02,Filled,Internal Database,3280,Venezuela
+V0361,Ironwood Construction,Executive Assistant,Finance & Ops,R06,2026-03-09,2026-05-07,Filled,Referral,1470,Mexico
+V0362,Grandview Hospitality,Executive Assistant,Finance & Ops,R11,2026-02-02,2026-03-11,Filled,Job Board,1780,Brazil
+V0363,Falcon Freight,IT Support Specialist,Tech,R01,2025-12-17,,Open,Job Board,,
+V0364,Cascade Realty,Data Analyst,Tech,R01,2026-03-21,,Cancelled,LinkedIn,,
+V0365,Quantum IT Services,IT Support Specialist,Tech,R10,2026-05-03,,Open,LinkedIn,,
+V0366,TrueNorth SaaS,Data Analyst,Tech,R10,2026-01-27,,Cancelled,LinkedIn,,
+V0367,Ironwood Construction,QA Engineer,Tech,R01,2026-04-20,2026-05-18,Filled,LinkedIn,1850,Mexico
+V0368,BlueOak Financial,Bookkeeper,Finance & Ops,R06,2026-04-20,2026-05-11,Filled,Job Board,1460,Mexico
+V0369,Cascade Realty,Marketing Specialist,Marketing & Sales,R08,2025-11-25,2026-01-16,Filled,Referral,1810,Venezuela
+V0370,Maple & Main Retail,IT Support Specialist,Tech,R03,2026-05-20,2026-06-12,Filled,LinkedIn,1910,Mexico
+V0371,Quantum IT Services,Social Media Manager,Marketing & Sales,R08,2025-10-21,,Open,LinkedIn,,
+V0372,Brightline Health,Bookkeeper,Finance & Ops,R04,2026-04-21,,Cancelled,Internal Database,,
+V0373,Brightline Health,Project Manager,Finance & Ops,R04,2026-02-05,2026-03-06,Filled,LinkedIn,2720,Colombia
+V0374,TrueNorth SaaS,IT Support Specialist,Tech,R02,2025-12-06,,Open,Referral,,
+V0375,ClearPath Accounting,Full-Stack Developer,Tech,R01,2025-10-12,2025-11-09,Filled,LinkedIn,3110,Colombia
+V0376,Beacon Marketing,Project Manager,Finance & Ops,R05,2025-10-26,,Open,LinkedIn,,
+V0377,Sterling Property Mgmt,Customer Support Rep,Marketing & Sales,R08,2026-05-07,2026-06-23,Filled,Internal Database,1550,Argentina
+V0378,Nova Legal Group,Data Analyst,Tech,R03,2026-02-03,2026-04-17,Filled,LinkedIn,2520,Colombia
+V0379,Falcon Freight,QA Engineer,Tech,R02,2026-05-03,,Cancelled,Internal Database,,
+V0380,Redwood Media,SDR / Appointment Setter,Marketing & Sales,R12,2025-10-10,,Open,Internal Database,,
+V0381,Everline Solar,SDR / Appointment Setter,Marketing & Sales,R12,2026-03-14,2026-04-23,Filled,LinkedIn,1220,Colombia
+V0382,Cascade Realty,Project Manager,Finance & Ops,R06,2026-06-29,,Cancelled,LinkedIn,,
+V0383,Redwood Media,IT Support Specialist,Tech,R01,2026-02-14,,Cancelled,Internal Database,,
+V0384,Brightline Health,QA Engineer,Tech,R02,2025-12-30,2026-02-25,Filled,Job Board,2440,Peru
+V0385,Grandview Hospitality,Bookkeeper,Finance & Ops,R05,2025-12-12,,Open,LinkedIn,,
+V0386,Beacon Marketing,Project Manager,Finance & Ops,R04,2025-10-20,2025-11-03,Filled,LinkedIn,2540,Peru
+V0387,Brightline Health,Marketing Specialist,Marketing & Sales,R08,2026-01-12,2026-03-06,Filled,LinkedIn,1620,Colombia
+V0388,Redwood Media,Social Media Manager,Marketing & Sales,R07,2025-12-12,,Open,Job Board,,
+V0389,Pinnacle Auto Group,Customer Support Rep,Marketing & Sales,R07,2026-04-21,2026-05-23,Filled,Job Board,1260,Brazil
+V0390,Peak Staffing Co,Project Manager,Finance & Ops,R05,2026-03-12,,Cancelled,Job Board,,
+V0391,Solstice Wellness,QA Engineer,Tech,R03,2026-04-12,,Cancelled,LinkedIn,,
+V0392,TrueNorth SaaS,Social Media Manager,Marketing & Sales,R07,2026-04-19,2026-05-29,Filled,LinkedIn,1490,Brazil
+V0393,Harbor Dental Partners,Project Manager,Finance & Ops,R06,2025-12-12,,Cancelled,Job Board,,
+V0394,Lakeside Insurance,Full-Stack Developer,Tech,R10,2026-03-21,2026-04-10,Filled,Job Board,2630,Argentina
+V0395,Beacon Marketing,Social Media Manager,Marketing & Sales,R07,2025-10-01,2025-11-03,Filled,Internal Database,1740,Venezuela
+V0396,Harbor Dental Partners,Bookkeeper,Finance & Ops,R04,2026-04-11,,Open,Referral,,
+V0397,Harbor Dental Partners,Data Analyst,Tech,R01,2026-02-28,2026-03-21,Filled,Internal Database,2570,Argentina
+V0398,Brightline Health,QA Engineer,Tech,R01,2025-11-08,2026-01-20,Filled,Referral,2590,Brazil
+V0399,Pinnacle Auto Group,Customer Support Rep,Marketing & Sales,R12,2025-12-24,2026-01-31,Filled,Job Board,1150,Mexico
+V0400,Grandview Hospitality,Social Media Manager,Marketing & Sales,R09,2026-02-13,2026-04-16,Filled,Job Board,1360,Peru
+V0401,Cascade Realty,QA Engineer,Tech,R03,2025-10-28,2026-01-09,Filled,LinkedIn,1870,Mexico
+V0402,Beacon Marketing,QA Engineer,Tech,R01,2026-02-27,2026-04-30,Filled,Internal Database,1890,Venezuela
+V0403,Sterling Property Mgmt,Executive Assistant,Finance & Ops,R11,2025-11-16,2026-01-14,Filled,LinkedIn,1730,Mexico
+V0404,Everline Solar,Project Manager,Finance & Ops,R06,2026-05-27,2026-06-15,Filled,Job Board,2240,Mexico
+V0405,Grandview Hospitality,Full-Stack Developer,Tech,R03,2025-11-13,,Open,LinkedIn,,
+V0406,TrueNorth SaaS,Accountant,Finance & Ops,R11,2026-06-25,,Open,Internal Database,,
+V0407,TrueNorth SaaS,Project Manager,Finance & Ops,R04,2026-03-03,2026-03-19,Filled,Internal Database,2770,Peru
+V0408,Vertex Home Services,Marketing Specialist,Marketing & Sales,R07,2025-12-15,,Open,Job Board,,
+V0409,Falcon Freight,QA Engineer,Tech,R10,2025-10-22,2025-11-28,Filled,LinkedIn,2350,Philippines
+V0410,Nova Legal Group,Marketing Specialist,Marketing & Sales,R09,2026-02-10,,Open,Referral,,
+V0411,Quantum IT Services,Accountant,Finance & Ops,R06,2026-03-16,2026-03-29,Filled,Job Board,2330,Philippines
+V0412,TrueNorth SaaS,SDR / Appointment Setter,Marketing & Sales,R07,2026-05-03,2026-05-27,Filled,Job Board,1290,Colombia
+V0413,Harbor Dental Partners,Executive Assistant,Finance & Ops,R11,2026-03-26,2026-06-06,Filled,LinkedIn,1590,Colombia
+V0414,Solstice Wellness,QA Engineer,Tech,R01,2026-04-24,2026-06-05,Filled,Referral,2500,Colombia
+V0415,Beacon Marketing,Executive Assistant,Finance & Ops,R04,2026-04-09,2026-05-30,Filled,Internal Database,1680,Argentina
+V0416,ClearPath Accounting,Customer Support Rep,Marketing & Sales,R08,2025-11-20,2026-01-27,Filled,LinkedIn,1590,Philippines
+V0417,Beacon Marketing,Accountant,Finance & Ops,R05,2025-11-15,2026-01-18,Filled,Job Board,2330,Brazil
+V0418,Everline Solar,Bookkeeper,Finance & Ops,R05,2025-10-29,2025-12-31,Filled,Internal Database,1730,Mexico
+V0419,Summit Logistics,Marketing Specialist,Marketing & Sales,R08,2025-10-15,2025-11-03,Filled,Referral,2080,Mexico
+V0420,Cascade Realty,Bookkeeper,Finance & Ops,R06,2026-01-10,2026-03-13,Filled,Job Board,1580,Brazil
+V0421,Grandview Hospitality,IT Support Specialist,Tech,R10,2026-04-09,2026-06-20,Filled,LinkedIn,1510,Peru
+V0422,TrueNorth SaaS,QA Engineer,Tech,R01,2026-02-10,2026-03-14,Filled,Job Board,2110,Philippines
+V0423,Copperfield Law,IT Support Specialist,Tech,R02,2026-01-22,,Cancelled,LinkedIn,,
+V0424,Peak Staffing Co,Customer Support Rep,Marketing & Sales,R12,2025-10-05,,Open,LinkedIn,,
+V0425,Lakeside Insurance,Executive Assistant,Finance & Ops,R11,2026-02-18,,Open,LinkedIn,,
+V0426,Grandview Hospitality,Executive Assistant,Finance & Ops,R11,2026-06-24,,Cancelled,Job Board,,
+V0427,Lakeside Insurance,Marketing Specialist,Marketing & Sales,R09,2026-02-22,,Cancelled,Job Board,,
+V0428,Riverbend Clinics,Executive Assistant,Finance & Ops,R06,2026-02-11,2026-03-25,Filled,Referral,1510,Colombia
+V0429,Pinnacle Auto Group,Bookkeeper,Finance & Ops,R04,2025-12-11,,Cancelled,Referral,,
+V0430,Redwood Media,Social Media Manager,Marketing & Sales,R08,2025-10-19,2025-12-30,Filled,Referral,1730,Brazil
+V0431,Grandview Hospitality,QA Engineer,Tech,R03,2026-01-01,2026-02-15,Filled,Job Board,1900,Brazil
+V0432,ClearPath Accounting,QA Engineer,Tech,R01,2026-03-21,2026-05-11,Filled,LinkedIn,1980,Venezuela
+V0433,Beacon Marketing,Marketing Specialist,Marketing & Sales,R12,2026-02-28,,Open,Internal Database,,
+V0434,Vertex Home Services,SDR / Appointment Setter,Marketing & Sales,R12,2025-12-01,2026-01-01,Filled,LinkedIn,1450,Mexico
+V0435,ClearPath Accounting,Marketing Specialist,Marketing & Sales,R08,2026-05-23,2026-06-14,Filled,Job Board,2000,Venezuela
+V0436,Everline Solar,QA Engineer,Tech,R01,2026-03-10,2026-04-12,Filled,LinkedIn,2020,Peru
+V0437,Atlas E-commerce,Full-Stack Developer,Tech,R10,2025-12-06,,Cancelled,LinkedIn,,
+V0438,Brightline Health,SDR / Appointment Setter,Marketing & Sales,R09,2026-01-11,,Open,Job Board,,
+V0439,Cascade Realty,Customer Support Rep,Marketing & Sales,R08,2026-02-05,,Cancelled,Referral,,
+V0440,Solstice Wellness,Marketing Specialist,Marketing & Sales,R08,2026-03-06,2026-04-24,Filled,Referral,1530,Venezuela
+V0441,Beacon Marketing,SDR / Appointment Setter,Marketing & Sales,R12,2026-03-22,,Open,LinkedIn,,
+V0442,Solstice Wellness,IT Support Specialist,Tech,R10,2025-12-24,2026-01-21,Filled,LinkedIn,1530,Mexico
+V0443,Falcon Freight,SDR / Appointment Setter,Marketing & Sales,R07,2025-12-26,2026-01-11,Filled,LinkedIn,1590,Venezuela
+V0444,Summit Logistics,SDR / Appointment Setter,Marketing & Sales,R07,2025-10-25,,Cancelled,Job Board,,
+V0445,Quantum IT Services,Accountant,Finance & Ops,R11,2026-05-16,2026-06-16,Filled,Job Board,1800,Mexico
+V0446,Riverbend Clinics,Data Analyst,Tech,R10,2026-03-04,,Cancelled,Job Board,,
+V0447,Cascade Realty,QA Engineer,Tech,R01,2026-05-03,2026-06-20,Filled,Referral,2290,Colombia
+V0448,Quantum IT Services,Marketing Specialist,Marketing & Sales,R09,2026-01-11,,Open,Referral,,
+V0449,ClearPath Accounting,QA Engineer,Tech,R10,2025-10-21,,Open,LinkedIn,,
+V0450,Nova Legal Group,Data Analyst,Tech,R01,2025-11-15,,Open,Job Board,,
+V0451,Lakeside Insurance,Full-Stack Developer,Tech,R03,2025-11-21,,Cancelled,Referral,,
+V0452,Pinnacle Auto Group,Full-Stack Developer,Tech,R01,2025-12-29,,Open,Job Board,,
+V0453,ClearPath Accounting,Full-Stack Developer,Tech,R01,2025-10-24,,Open,LinkedIn,,
+V0454,Atlas E-commerce,Project Manager,Finance & Ops,R04,2026-02-15,2026-03-13,Filled,Internal Database,2310,Venezuela
+V0455,Cascade Realty,Executive Assistant,Finance & Ops,R11,2026-04-16,,Open,LinkedIn,,
+V0456,TrueNorth SaaS,Social Media Manager,Marketing & Sales,R08,2025-10-31,2026-01-12,Filled,Job Board,1850,Philippines
+V0457,Beacon Marketing,QA Engineer,Tech,R03,2026-04-13,2026-05-11,Filled,LinkedIn,2490,Venezuela
+V0458,Maple & Main Retail,Accountant,Finance & Ops,R04,2026-05-14,2026-05-27,Filled,Referral,2120,Brazil
+V0459,Maple & Main Retail,Social Media Manager,Marketing & Sales,R09,2026-01-23,2026-02-16,Filled,Job Board,1710,Venezuela
+V0460,Falcon Freight,Project Manager,Finance & Ops,R11,2026-03-27,2026-04-14,Filled,Internal Database,2740,Colombia
+V0461,ClearPath Accounting,SDR / Appointment Setter,Marketing & Sales,R12,2026-05-29,,Open,LinkedIn,,
+V0462,Sterling Property Mgmt,Executive Assistant,Finance & Ops,R05,2025-10-26,2025-12-07,Filled,Referral,1430,Colombia
+V0463,Beacon Marketing,Marketing Specialist,Marketing & Sales,R07,2026-05-18,,Open,Job Board,,
+V0464,Nova Legal Group,Data Analyst,Tech,R10,2025-11-22,2025-12-04,Filled,Job Board,2290,Philippines
+V0465,Redwood Media,Marketing Specialist,Marketing & Sales,R08,2026-03-05,,Cancelled,Job Board,,
+V0466,Quantum IT Services,IT Support Specialist,Tech,R03,2026-05-21,,Cancelled,Job Board,,
+V0467,Redwood Media,Social Media Manager,Marketing & Sales,R07,2026-05-20,2026-06-01,Filled,Job Board,1700,Argentina
+V0468,Beacon Marketing,Executive Assistant,Finance & Ops,R06,2026-06-25,,Cancelled,LinkedIn,,
+V0469,Atlas E-commerce,Social Media Manager,Marketing & Sales,R07,2026-04-28,2026-05-25,Filled,LinkedIn,1420,Philippines
+V0470,Everline Solar,IT Support Specialist,Tech,R01,2026-03-23,,Cancelled,Internal Database,,
+V0471,Grandview Hospitality,Project Manager,Finance & Ops,R05,2026-06-16,,Open,Internal Database,,
+V0472,Cascade Realty,Marketing Specialist,Marketing & Sales,R08,2026-06-05,,Cancelled,Referral,,
+V0473,Atlas E-commerce,Marketing Specialist,Marketing & Sales,R12,2026-03-14,2026-04-26,Filled,Internal Database,1930,Argentina
+V0474,Quantum IT Services,Executive Assistant,Finance & Ops,R05,2026-05-20,,Cancelled,Referral,,
+V0475,BlueOak Financial,Bookkeeper,Finance & Ops,R05,2026-01-20,2026-03-17,Filled,Internal Database,1730,Brazil
+V0476,TrueNorth SaaS,Customer Support Rep,Marketing & Sales,R09,2025-12-31,,Cancelled,Referral,,
+V0477,Copperfield Law,Customer Support Rep,Marketing & Sales,R09,2026-05-02,,Open,LinkedIn,,
+V0478,Ironwood Construction,Accountant,Finance & Ops,R04,2025-12-14,,Cancelled,Job Board,,
+V0479,Sterling Property Mgmt,QA Engineer,Tech,R03,2025-11-01,2025-12-28,Filled,LinkedIn,2230,Philippines
+V0480,Maple & Main Retail,Customer Support Rep,Marketing & Sales,R12,2026-01-23,2026-03-12,Filled,LinkedIn,1490,Brazil
+V0481,Grandview Hospitality,Accountant,Finance & Ops,R11,2026-04-17,,Open,LinkedIn,,
+V0482,Peak Staffing Co,Social Media Manager,Marketing & Sales,R08,2026-02-06,,Cancelled,Internal Database,,
+V0483,Sterling Property Mgmt,Social Media Manager,Marketing & Sales,R08,2026-04-07,,Open,LinkedIn,,
+V0484,Atlas E-commerce,Customer Support Rep,Marketing & Sales,R08,2025-11-08,,Open,LinkedIn,,
+V0485,Sterling Property Mgmt,Executive Assistant,Finance & Ops,R05,2026-02-13,2026-02-25,Filled,Job Board,1710,Argentina
+V0486,Beacon Marketing,QA Engineer,Tech,R02,2025-10-21,,Open,Job Board,,
+V0487,Harbor Dental Partners,SDR / Appointment Setter,Marketing & Sales,R07,2026-04-02,,Open,Referral,,
+V0488,Vertex Home Services,SDR / Appointment Setter,Marketing & Sales,R12,2025-12-21,2026-02-15,Filled,Job Board,1440,Mexico
+V0489,Everline Solar,Bookkeeper,Finance & Ops,R06,2026-04-03,2026-06-14,Filled,Internal Database,1750,Peru
+V0490,Maple & Main Retail,Data Analyst,Tech,R03,2025-11-28,2026-01-10,Filled,Internal Database,2530,Colombia
+V0491,Everline Solar,Accountant,Finance & Ops,R11,2025-11-28,2025-12-13,Filled,LinkedIn,2180,Peru
+V0492,Copperfield Law,SDR / Appointment Setter,Marketing & Sales,R12,2026-05-17,2026-06-22,Filled,LinkedIn,1740,Argentina
+V0493,Maple & Main Retail,Full-Stack Developer,Tech,R01,2025-12-25,,Cancelled,Referral,,
+V0494,Brightline Health,Full-Stack Developer,Tech,R10,2026-01-14,,Cancelled,Referral,,
+V0495,Nova Legal Group,Bookkeeper,Finance & Ops,R04,2025-10-20,2025-12-03,Filled,Referral,1410,Peru
+V0496,Brightline Health,IT Support Specialist,Tech,R10,2026-02-10,2026-04-18,Filled,Referral,1780,Argentina
+V0497,Redwood Media,Full-Stack Developer,Tech,R01,2025-10-04,,Cancelled,Internal Database,,
+V0498,Atlas E-commerce,Full-Stack Developer,Tech,R03,2026-02-26,2026-05-05,Filled,Job Board,2710,Venezuela
+V0499,Grandview Hospitality,Data Analyst,Tech,R02,2026-05-31,,Cancelled,LinkedIn,,
+V0500,Brightline Health,Customer Support Rep,Marketing & Sales,R09,2025-12-13,,Cancelled,Referral,,
+V0501,Grandview Hospitality,SDR / Appointment Setter,Marketing & Sales,R07,2025-12-12,2026-02-12,Filled,Internal Database,1540,Peru
+V0502,Harbor Dental Partners,Executive Assistant,Finance & Ops,R06,2026-01-16,2026-02-15,Filled,LinkedIn,1740,Mexico
+V0503,Everline Solar,Executive Assistant,Finance & Ops,R04,2026-01-08,2026-01-26,Filled,Internal Database,1680,Philippines
+V0504,Solstice Wellness,SDR / Appointment Setter,Marketing & Sales,R07,2026-05-25,2026-06-18,Filled,Referral,1240,Mexico
+V0505,Riverbend Clinics,Bookkeeper,Finance & Ops,R05,2026-04-01,,Cancelled,LinkedIn,,
+V0506,TrueNorth SaaS,IT Support Specialist,Tech,R10,2026-03-12,2026-05-02,Filled,LinkedIn,1770,Brazil
+V0507,Peak Staffing Co,Marketing Specialist,Marketing & Sales,R09,2026-04-05,,Open,Job Board,,
+V0508,Beacon Marketing,Social Media Manager,Marketing & Sales,R09,2026-05-12,,Open,Referral,,
+V0509,Lakeside Insurance,Bookkeeper,Finance & Ops,R11,2026-03-06,2026-03-28,Filled,Internal Database,1410,Philippines
+V0510,Brightline Health,QA Engineer,Tech,R03,2026-01-09,,Cancelled,Job Board,,
+V0511,Grandview Hospitality,Customer Support Rep,Marketing & Sales,R12,2025-10-16,,Cancelled,LinkedIn,,
+V0512,BlueOak Financial,SDR / Appointment Setter,Marketing & Sales,R08,2026-05-30,,Cancelled,Referral,,
+V0513,Riverbend Clinics,SDR / Appointment Setter,Marketing & Sales,R12,2025-11-16,2025-12-28,Filled,Job Board,1210,Philippines
+V0514,Solstice Wellness,SDR / Appointment Setter,Marketing & Sales,R12,2025-12-11,2026-01-10,Filled,Referral,1540,Brazil
+V0515,Redwood Media,Bookkeeper,Finance & Ops,R05,2025-10-21,,Cancelled,LinkedIn,,
+V0516,Falcon Freight,Customer Support Rep,Marketing & Sales,R09,2026-01-14,2026-01-31,Filled,LinkedIn,1560,Colombia
+V0517,Atlas E-commerce,Social Media Manager,Marketing & Sales,R09,2026-06-24,,Open,Job Board,,
+V0518,Redwood Media,Bookkeeper,Finance & Ops,R06,2025-11-09,2026-01-11,Filled,Referral,1840,Argentina
+V0519,BlueOak Financial,Project Manager,Finance & Ops,R05,2025-10-04,2025-11-20,Filled,LinkedIn,2210,Mexico
+V0520,Maple & Main Retail,Bookkeeper,Finance & Ops,R05,2025-11-30,2025-12-26,Filled,Referral,1500,Venezuela
+V0521,Falcon Freight,IT Support Specialist,Tech,R10,2025-12-22,2026-01-23,Filled,Referral,1430,Mexico
+V0522,TrueNorth SaaS,Marketing Specialist,Marketing & Sales,R07,2025-12-15,2026-02-16,Filled,Job Board,2150,Peru
+V0523,Beacon Marketing,Social Media Manager,Marketing & Sales,R07,2026-02-23,2026-05-06,Filled,LinkedIn,1660,Philippines
+V0524,Solstice Wellness,Accountant,Finance & Ops,R05,2025-12-13,,Cancelled,Job Board,,
+V0525,Copperfield Law,Project Manager,Finance & Ops,R05,2025-11-05,2025-11-19,Filled,Internal Database,2120,Mexico
+V0526,Grandview Hospitality,SDR / Appointment Setter,Marketing & Sales,R08,2026-05-03,2026-05-19,Filled,Referral,1310,Philippines
+V0527,Everline Solar,Full-Stack Developer,Tech,R10,2025-11-17,,Cancelled,Job Board,,
+V0528,Peak Staffing Co,Accountant,Finance & Ops,R11,2026-06-25,,Cancelled,Internal Database,,
+V0529,BlueOak Financial,Project Manager,Finance & Ops,R06,2026-04-14,2026-05-08,Filled,LinkedIn,2670,Venezuela
+V0530,Brightline Health,IT Support Specialist,Tech,R03,2025-11-12,2025-12-26,Filled,Job Board,1730,Mexico
+V0531,Quantum IT Services,Data Analyst,Tech,R01,2026-06-25,,Cancelled,Job Board,,
+V0532,Grandview Hospitality,Accountant,Finance & Ops,R04,2026-04-04,2026-05-18,Filled,Referral,2120,Argentina
+V0533,Harbor Dental Partners,Bookkeeper,Finance & Ops,R11,2026-02-19,,Cancelled,LinkedIn,,
+V0534,Solstice Wellness,SDR / Appointment Setter,Marketing & Sales,R09,2026-06-05,,Open,LinkedIn,,
+V0535,Vertex Home Services,Customer Support Rep,Marketing & Sales,R08,2025-11-30,2026-01-01,Filled,Referral,1450,Colombia
+V0536,BlueOak Financial,Bookkeeper,Finance & Ops,R05,2025-10-27,2025-11-19,Filled,Referral,1680,Philippines
+V0537,Summit Logistics,Marketing Specialist,Marketing & Sales,R07,2026-05-11,2026-06-02,Filled,Job Board,1660,Peru
+V0538,Falcon Freight,Accountant,Finance & Ops,R06,2026-06-24,,Cancelled,Referral,,
+V0539,Harbor Dental Partners,Data Analyst,Tech,R03,2026-01-12,2026-02-22,Filled,Job Board,2450,Peru
+V0540,Everline Solar,Bookkeeper,Finance & Ops,R04,2026-01-31,,Open,Referral,,
+V0541,Grandview Hospitality,Customer Support Rep,Marketing & Sales,R12,2026-04-21,2026-05-11,Filled,LinkedIn,1360,Colombia
+V0542,Sterling Property Mgmt,SDR / Appointment Setter,Marketing & Sales,R09,2026-03-28,,Open,Internal Database,,
+V0543,Ironwood Construction,Marketing Specialist,Marketing & Sales,R09,2025-10-03,2025-10-24,Filled,LinkedIn,1850,Peru
+V0544,Quantum IT Services,Full-Stack Developer,Tech,R03,2026-06-20,,Open,Referral,,
+V0545,Maple & Main Retail,Accountant,Finance & Ops,R05,2026-06-05,,Cancelled,Referral,,
+V0546,Quantum IT Services,Marketing Specialist,Marketing & Sales,R12,2025-10-15,2025-11-24,Filled,LinkedIn,1550,Brazil
+V0547,Ironwood Construction,Bookkeeper,Finance & Ops,R06,2026-04-30,2026-06-14,Filled,LinkedIn,1310,Mexico
+V0548,Vertex Home Services,Customer Support Rep,Marketing & Sales,R07,2026-03-25,2026-05-16,Filled,Internal Database,1190,Argentina
+V0549,Lakeside Insurance,Executive Assistant,Finance & Ops,R05,2026-01-02,2026-02-13,Filled,LinkedIn,1320,Philippines
+V0550,Maple & Main Retail,IT Support Specialist,Tech,R03,2026-02-05,2026-02-27,Filled,Referral,1460,Brazil
+V0551,Harbor Dental Partners,Data Analyst,Tech,R10,2025-10-22,2025-12-08,Filled,Internal Database,2120,Venezuela
+V0552,Pinnacle Auto Group,SDR / Appointment Setter,Marketing & Sales,R12,2026-02-21,2026-03-11,Filled,Referral,1550,Peru
+V0553,Cascade Realty,SDR / Appointment Setter,Marketing & Sales,R09,2025-10-17,2025-11-20,Filled,Job Board,1610,Venezuela
+V0554,Redwood Media,Project Manager,Finance & Ops,R04,2026-03-11,2026-04-04,Filled,Job Board,2190,Argentina
+V0555,Harbor Dental Partners,Executive Assistant,Finance & Ops,R06,2026-01-04,2026-02-28,Filled,Referral,1480,Argentina
+V0556,Harbor Dental Partners,IT Support Specialist,Tech,R03,2026-05-03,,Cancelled,Referral,,
+V0557,Atlas E-commerce,Marketing Specialist,Marketing & Sales,R07,2026-01-26,,Cancelled,LinkedIn,,
+V0558,BlueOak Financial,Social Media Manager,Marketing & Sales,R12,2025-12-16,,Open,Internal Database,,
+V0559,Atlas E-commerce,Customer Support Rep,Marketing & Sales,R09,2026-06-22,,Open,LinkedIn,,
+V0560,Sterling Property Mgmt,QA Engineer,Tech,R02,2025-10-31,,Open,Job Board,,
+V0561,Brightline Health,Executive Assistant,Finance & Ops,R06,2026-04-03,2026-05-17,Filled,Referral,1760,Argentina
+V0562,Maple & Main Retail,Bookkeeper,Finance & Ops,R05,2026-01-10,,Open,Referral,,
+V0563,Harbor Dental Partners,Social Media Manager,Marketing & Sales,R07,2026-05-17,2026-06-16,Filled,Job Board,1470,Philippines
+V0564,ClearPath Accounting,Bookkeeper,Finance & Ops,R11,2026-05-04,,Open,LinkedIn,,
+V0565,Redwood Media,Bookkeeper,Finance & Ops,R06,2026-02-27,2026-05-06,Filled,Job Board,1540,Philippines
+V0566,Peak Staffing Co,SDR / Appointment Setter,Marketing & Sales,R12,2026-05-19,2026-06-16,Filled,Job Board,1710,Brazil
+V0567,Grandview Hospitality,Social Media Manager,Marketing & Sales,R08,2025-11-10,2025-11-30,Filled,LinkedIn,1360,Venezuela
+V0568,Falcon Freight,Accountant,Finance & Ops,R04,2026-06-26,,Cancelled,Internal Database,,
+V0569,Copperfield Law,Accountant,Finance & Ops,R05,2026-03-08,2026-04-05,Filled,Job Board,1830,Mexico
+V0570,Sterling Property Mgmt,Data Analyst,Tech,R03,2025-10-18,,Open,Internal Database,,
+V0571,Riverbend Clinics,SDR / Appointment Setter,Marketing & Sales,R12,2026-02-17,2026-03-23,Filled,Referral,1770,Peru
+V0572,Nova Legal Group,Social Media Manager,Marketing & Sales,R09,2026-05-11,,Open,Referral,,
+V0573,Ironwood Construction,Bookkeeper,Finance & Ops,R06,2026-04-30,2026-05-29,Filled,Referral,1310,Argentina
+V0574,Riverbend Clinics,Data Analyst,Tech,R10,2026-06-09,,Cancelled,LinkedIn,,
+V0575,Harbor Dental Partners,Data Analyst,Tech,R02,2026-04-10,2026-06-11,Filled,Job Board,2290,Mexico
+V0576,Everline Solar,Customer Support Rep,Marketing & Sales,R12,2026-04-18,2026-05-30,Filled,Job Board,1140,Peru
+V0577,Pinnacle Auto Group,Marketing Specialist,Marketing & Sales,R09,2026-02-17,,Cancelled,LinkedIn,,
+V0578,Quantum IT Services,Full-Stack Developer,Tech,R02,2026-01-02,2026-03-12,Filled,Job Board,3100,Argentina
+V0579,Cascade Realty,IT Support Specialist,Tech,R01,2026-03-14,2026-03-28,Filled,LinkedIn,1980,Mexico
+V0580,Vertex Home Services,QA Engineer,Tech,R01,2026-05-13,,Cancelled,LinkedIn,,
+V0581,Nova Legal Group,Executive Assistant,Finance & Ops,R06,2026-06-13,,Cancelled,Job Board,,
+V0582,Harbor Dental Partners,QA Engineer,Tech,R03,2025-10-29,,Open,LinkedIn,,
+V0583,Everline Solar,Executive Assistant,Finance & Ops,R04,2026-04-14,2026-05-27,Filled,Internal Database,1660,Venezuela
+V0584,Atlas E-commerce,IT Support Specialist,Tech,R02,2025-10-18,2025-11-25,Filled,Job Board,1860,Venezuela
+V0585,Lakeside Insurance,Executive Assistant,Finance & Ops,R05,2026-03-15,,Cancelled,Referral,,
+V0586,Cascade Realty,Executive Assistant,Finance & Ops,R06,2026-01-10,,Open,LinkedIn,,
+V0587,Peak Staffing Co,Accountant,Finance & Ops,R04,2026-03-16,2026-04-12,Filled,LinkedIn,1820,Venezuela
+V0588,Nova Legal Group,Data Analyst,Tech,R02,2026-06-01,2026-07-03,Filled,Job Board,1960,Venezuela
+V0589,Beacon Marketing,Bookkeeper,Finance & Ops,R04,2025-10-31,2025-11-25,Filled,LinkedIn,1390,Mexico
+V0590,Redwood Media,SDR / Appointment Setter,Marketing & Sales,R12,2026-03-27,,Cancelled,Job Board,,
+V0591,Vertex Home Services,Executive Assistant,Finance & Ops,R11,2025-10-21,,Cancelled,Referral,,
+V0592,Nova Legal Group,SDR / Appointment Setter,Marketing & Sales,R09,2026-03-28,,Cancelled,Referral,,
+V0593,Harbor Dental Partners,Project Manager,Finance & Ops,R06,2026-03-01,2026-04-30,Filled,Internal Database,2410,Brazil
+V0594,Copperfield Law,Marketing Specialist,Marketing & Sales,R08,2026-04-05,2026-06-05,Filled,Job Board,1540,Mexico
+V0595,Copperfield Law,SDR / Appointment Setter,Marketing & Sales,R09,2025-12-18,2026-01-13,Filled,Job Board,1580,Colombia
+V0596,Vertex Home Services,Data Analyst,Tech,R02,2025-12-06,,Open,LinkedIn,,
+V0597,Redwood Media,Marketing Specialist,Marketing & Sales,R12,2026-04-17,2026-05-31,Filled,LinkedIn,1990,Colombia
+V0598,Nova Legal Group,Social Media Manager,Marketing & Sales,R07,2025-11-06,,Open,Referral,,
+V0599,Redwood Media,Customer Support Rep,Marketing & Sales,R09,2025-11-01,2026-01-05,Filled,Job Board,1570,Philippines
+V0600,Vertex Home Services,Data Analyst,Tech,R01,2026-02-14,,Cancelled,Internal Database,,
+V0601,Falcon Freight,Full-Stack Developer,Tech,R02,2025-11-21,2026-01-03,Filled,Internal Database,2610,Peru
+V0602,Quantum IT Services,SDR / Appointment Setter,Marketing & Sales,R07,2026-05-01,,Cancelled,Job Board,,
+V0603,Riverbend Clinics,Full-Stack Developer,Tech,R02,2025-12-25,2026-01-26,Filled,Referral,2960,Peru
+V0604,Solstice Wellness,Bookkeeper,Finance & Ops,R06,2026-03-11,,Open,LinkedIn,,
+V0605,Redwood Media,IT Support Specialist,Tech,R10,2026-01-18,,Cancelled,Internal Database,,
+V0606,Copperfield Law,Project Manager,Finance & Ops,R04,2026-04-22,,Cancelled,LinkedIn,,
+V0607,Brightline Health,Executive Assistant,Finance & Ops,R06,2025-10-04,,Open,Job Board,,
+V0608,Lakeside Insurance,Social Media Manager,Marketing & Sales,R08,2026-02-19,2026-03-22,Filled,LinkedIn,1580,Mexico
+V0609,Vertex Home Services,Marketing Specialist,Marketing & Sales,R08,2026-02-05,2026-04-09,Filled,Job Board,1710,Peru
+V0610,Falcon Freight,Social Media Manager,Marketing & Sales,R12,2026-03-16,2026-04-09,Filled,LinkedIn,1800,Peru
+V0611,Redwood Media,Social Media Manager,Marketing & Sales,R07,2026-04-14,,Open,Internal Database,,
+V0612,Falcon Freight,Accountant,Finance & Ops,R04,2026-05-02,,Open,Job Board,,
+V0613,Copperfield Law,Accountant,Finance & Ops,R06,2025-10-28,2025-11-28,Filled,Job Board,1860,Argentina
+V0614,Peak Staffing Co,QA Engineer,Tech,R10,2025-10-26,,Open,Referral,,
+V0615,Atlas E-commerce,Accountant,Finance & Ops,R05,2025-12-15,2026-01-02,Filled,LinkedIn,1980,Peru
+V0616,Beacon Marketing,Accountant,Finance & Ops,R11,2026-06-14,,Open,Referral,,
+V0617,Nova Legal Group,Project Manager,Finance & Ops,R05,2026-04-21,2026-06-03,Filled,LinkedIn,2900,Mexico
+V0618,Vertex Home Services,Accountant,Finance & Ops,R04,2026-03-15,2026-05-12,Filled,LinkedIn,1930,Argentina
+V0619,BlueOak Financial,Marketing Specialist,Marketing & Sales,R09,2025-10-13,2025-12-20,Filled,Referral,1740,Peru
+V0620,Solstice Wellness,IT Support Specialist,Tech,R03,2026-01-11,2026-02-02,Filled,LinkedIn,1840,Colombia
+V0621,Sterling Property Mgmt,Marketing Specialist,Marketing & Sales,R09,2025-12-15,2026-01-10,Filled,Referral,1990,Argentina
+V0622,Beacon Marketing,Bookkeeper,Finance & Ops,R05,2026-01-16,2026-03-02,Filled,Job Board,1610,Peru
+V0623,Harbor Dental Partners,QA Engineer,Tech,R10,2025-10-10,2025-10-27,Filled,LinkedIn,2330,Argentina
+V0624,Maple & Main Retail,IT Support Specialist,Tech,R01,2026-02-16,2026-03-08,Filled,LinkedIn,1970,Venezuela
+V0625,Atlas E-commerce,Customer Support Rep,Marketing & Sales,R07,2026-04-03,2026-06-03,Filled,Referral,1530,Mexico
+V0626,Vertex Home Services,Social Media Manager,Marketing & Sales,R09,2025-11-20,2025-12-13,Filled,Referral,1660,Mexico
+V0627,Atlas E-commerce,Project Manager,Finance & Ops,R04,2025-10-12,2025-12-05,Filled,Job Board,2480,Venezuela
+V0628,Summit Logistics,Data Analyst,Tech,R03,2026-03-27,2026-05-13,Filled,Job Board,2110,Philippines
+V0629,BlueOak Financial,Accountant,Finance & Ops,R06,2025-10-16,2025-12-17,Filled,LinkedIn,1870,Brazil
+V0630,Ironwood Construction,Accountant,Finance & Ops,R05,2026-06-24,,Cancelled,Internal Database,,
+V0631,BlueOak Financial,Bookkeeper,Finance & Ops,R05,2026-05-18,2026-06-24,Filled,LinkedIn,1380,Philippines
+V0632,Falcon Freight,Social Media Manager,Marketing & Sales,R08,2026-06-26,,Cancelled,Internal Database,,
+V0633,ClearPath Accounting,QA Engineer,Tech,R01,2026-03-12,2026-04-08,Filled,Job Board,2560,Mexico
+V0634,Ironwood Construction,QA Engineer,Tech,R03,2025-10-16,,Open,Referral,,
+V0635,Brightline Health,Customer Support Rep,Marketing & Sales,R08,2026-02-18,,Open,Job Board,,
+V0636,Nova Legal Group,Marketing Specialist,Marketing & Sales,R08,2026-02-14,2026-03-01,Filled,Job Board,1660,Argentina
+V0637,Beacon Marketing,Project Manager,Finance & Ops,R11,2025-12-08,,Cancelled,Referral,,
+V0638,Pinnacle Auto Group,QA Engineer,Tech,R02,2026-01-07,2026-01-20,Filled,LinkedIn,2410,Argentina
+V0639,Riverbend Clinics,Customer Support Rep,Marketing & Sales,R08,2026-01-12,2026-03-21,Filled,Referral,1560,Philippines
+V0640,Solstice Wellness,Bookkeeper,Finance & Ops,R05,2026-05-23,,Cancelled,LinkedIn,,
+V0641,Peak Staffing Co,Marketing Specialist,Marketing & Sales,R07,2026-06-26,,Cancelled,Referral,,
+V0642,Ironwood Construction,Accountant,Finance & Ops,R11,2025-10-21,2025-11-08,Filled,Referral,2100,Mexico
+V0643,Copperfield Law,Executive Assistant,Finance & Ops,R11,2026-02-24,2026-03-14,Filled,Internal Database,1380,Brazil
+V0644,Atlas E-commerce,Project Manager,Finance & Ops,R04,2026-05-20,,Cancelled,Referral,,
+V0645,Nova Legal Group,Project Manager,Finance & Ops,R05,2025-10-13,2025-11-19,Filled,LinkedIn,2810,Venezuela
+V0646,Copperfield Law,Social Media Manager,Marketing & Sales,R07,2025-12-23,2026-02-19,Filled,Job Board,1720,Colombia
+V0647,ClearPath Accounting,Social Media Manager,Marketing & Sales,R08,2026-06-19,,Cancelled,Referral,,
+V0648,Pinnacle Auto Group,Customer Support Rep,Marketing & Sales,R08,2025-12-16,,Open,LinkedIn,,
+V0649,Vertex Home Services,Social Media Manager,Marketing & Sales,R09,2026-05-17,,Cancelled,LinkedIn,,
+V0650,Beacon Marketing,Executive Assistant,Finance & Ops,R11,2025-10-07,2025-10-19,Filled,LinkedIn,1500,Peru
+V0651,Grandview Hospitality,Marketing Specialist,Marketing & Sales,R12,2026-06-01,2026-06-13,Filled,LinkedIn,1560,Mexico
+V0652,BlueOak Financial,Customer Support Rep,Marketing & Sales,R07,2026-01-15,2026-03-12,Filled,Internal Database,1130,Colombia
+V0653,Harbor Dental Partners,Customer Support Rep,Marketing & Sales,R09,2026-03-02,,Open,LinkedIn,,
+V0654,Nova Legal Group,Executive Assistant,Finance & Ops,R11,2025-12-30,,Cancelled,Job Board,,
+V0655,Ironwood Construction,Bookkeeper,Finance & Ops,R11,2026-04-07,,Open,Referral,,
+V0656,Summit Logistics,Full-Stack Developer,Tech,R03,2026-02-18,2026-03-28,Filled,LinkedIn,2980,Peru
+V0657,Pinnacle Auto Group,Social Media Manager,Marketing & Sales,R07,2026-06-28,,Cancelled,Job Board,,
+V0658,Copperfield Law,Bookkeeper,Finance & Ops,R06,2026-02-10,,Open,Job Board,,
+V0659,Vertex Home Services,Project Manager,Finance & Ops,R05,2026-06-10,,Open,LinkedIn,,
+V0660,Pinnacle Auto Group,Data Analyst,Tech,R01,2026-05-27,,Cancelled,LinkedIn,,
+V0661,Nova Legal Group,Bookkeeper,Finance & Ops,R04,2026-01-17,,Cancelled,LinkedIn,,
+V0662,TrueNorth SaaS,SDR / Appointment Setter,Marketing & Sales,R07,2026-03-15,2026-05-16,Filled,Job Board,1400,Brazil
+V0663,Summit Logistics,Data Analyst,Tech,R02,2025-12-29,2026-03-12,Filled,Job Board,2140,Venezuela
+V0664,Sterling Property Mgmt,Project Manager,Finance & Ops,R11,2025-12-19,,Open,Job Board,,
+V0665,TrueNorth SaaS,Accountant,Finance & Ops,R06,2025-10-29,2025-11-12,Filled,Job Board,2140,Mexico
+V0666,Grandview Hospitality,Bookkeeper,Finance & Ops,R05,2025-11-03,2026-01-02,Filled,Job Board,1320,Brazil
+V0667,ClearPath Accounting,Marketing Specialist,Marketing & Sales,R08,2026-04-18,2026-06-08,Filled,Job Board,2110,Brazil
+V0668,Ironwood Construction,Executive Assistant,Finance & Ops,R04,2026-04-30,,Cancelled,LinkedIn,,
+V0669,Sterling Property Mgmt,Executive Assistant,Finance & Ops,R04,2025-12-29,2026-02-04,Filled,Referral,1220,Colombia
+V0670,Everline Solar,Project Manager,Finance & Ops,R05,2026-06-14,,Cancelled,LinkedIn,,
+V0671,Quantum IT Services,Full-Stack Developer,Tech,R02,2026-06-22,,Cancelled,Internal Database,,
+V0672,ClearPath Accounting,Full-Stack Developer,Tech,R03,2025-10-03,,Open,Referral,,
+V0673,Vertex Home Services,Data Analyst,Tech,R03,2025-11-22,2025-12-30,Filled,LinkedIn,2430,Argentina
+V0674,BlueOak Financial,Executive Assistant,Finance & Ops,R06,2026-06-30,,Open,LinkedIn,,
+V0675,BlueOak Financial,Full-Stack Developer,Tech,R01,2025-10-08,2025-11-29,Filled,Internal Database,2790,Argentina
+V0676,Sterling Property Mgmt,Executive Assistant,Finance & Ops,R05,2026-02-03,2026-03-30,Filled,LinkedIn,1570,Peru
+V0677,Atlas E-commerce,Data Analyst,Tech,R01,2026-05-30,,Cancelled,LinkedIn,,
+V0678,Everline Solar,Marketing Specialist,Marketing & Sales,R09,2026-05-17,2026-06-08,Filled,Referral,2070,Philippines
+V0679,Peak Staffing Co,QA Engineer,Tech,R10,2025-11-17,2026-01-27,Filled,Internal Database,2050,Venezuela
+V0680,ClearPath Accounting,QA Engineer,Tech,R03,2026-02-10,2026-04-05,Filled,Referral,2360,Philippines
+V0681,Everline Solar,Data Analyst,Tech,R10,2025-11-03,2025-12-06,Filled,LinkedIn,2240,Argentina
+V0682,Grandview Hospitality,Marketing Specialist,Marketing & Sales,R07,2025-12-05,2025-12-30,Filled,Job Board,2000,Argentina
+V0683,Grandview Hospitality,Executive Assistant,Finance & Ops,R11,2026-06-30,,Cancelled,LinkedIn,,
+V0684,Pinnacle Auto Group,Project Manager,Finance & Ops,R04,2026-04-15,2026-06-21,Filled,Referral,2730,Philippines
+V0685,Cascade Realty,Bookkeeper,Finance & Ops,R05,2026-01-29,,Cancelled,Referral,,
+V0686,Nova Legal Group,Project Manager,Finance & Ops,R04,2026-03-16,,Open,Referral,,
+V0687,BlueOak Financial,Customer Support Rep,Marketing & Sales,R09,2026-04-13,2026-05-06,Filled,Internal Database,1430,Mexico
+V0688,Atlas E-commerce,Customer Support Rep,Marketing & Sales,R08,2025-10-01,,Cancelled,Job Board,,
+V0689,Pinnacle Auto Group,Project Manager,Finance & Ops,R05,2026-01-09,,Cancelled,Job Board,,
+V0690,Ironwood Construction,Bookkeeper,Finance & Ops,R04,2025-11-15,2025-12-13,Filled,LinkedIn,1610,Philippines
+V0691,Cascade Realty,SDR / Appointment Setter,Marketing & Sales,R07,2025-10-28,,Cancelled,Internal Database,,
+V0692,Quantum IT Services,Data Analyst,Tech,R10,2026-01-29,,Cancelled,Referral,,
+V0693,Grandview Hospitality,Accountant,Finance & Ops,R05,2026-05-11,,Cancelled,Referral,,
+V0694,Brightline Health,Bookkeeper,Finance & Ops,R05,2026-05-02,2026-05-30,Filled,LinkedIn,1820,Mexico
+V0695,Nova Legal Group,Data Analyst,Tech,R10,2025-12-13,,Cancelled,LinkedIn,,
+V0696,Grandview Hospitality,Accountant,Finance & Ops,R11,2026-05-22,,Cancelled,Job Board,,
+V0697,Solstice Wellness,Accountant,Finance & Ops,R05,2026-03-31,2026-06-14,Filled,LinkedIn,2080,Philippines
+V0698,Summit Logistics,SDR / Appointment Setter,Marketing & Sales,R12,2026-02-15,,Open,Referral,,
+V0699,Solstice Wellness,Social Media Manager,Marketing & Sales,R07,2026-04-07,2026-04-29,Filled,Job Board,1880,Mexico
+V0700,Beacon Marketing,Executive Assistant,Finance & Ops,R04,2026-05-27,,Cancelled,Job Board,,
+V0701,Sterling Property Mgmt,Customer Support Rep,Marketing & Sales,R09,2025-11-09,2025-11-22,Filled,Referral,1550,Venezuela
+V0702,Harbor Dental Partners,Project Manager,Finance & Ops,R11,2026-03-19,2026-05-07,Filled,LinkedIn,2880,Argentina
+V0703,Summit Logistics,Marketing Specialist,Marketing & Sales,R09,2026-03-05,2026-04-07,Filled,Job Board,1830,Peru
+V0704,Lakeside Insurance,Executive Assistant,Finance & Ops,R06,2025-10-14,2025-11-04,Filled,LinkedIn,1280,Philippines
+V0705,Riverbend Clinics,Marketing Specialist,Marketing & Sales,R09,2026-02-21,,Open,LinkedIn,,
+V0706,Harbor Dental Partners,Marketing Specialist,Marketing & Sales,R12,2025-12-17,2026-01-28,Filled,Job Board,1620,Venezuela
+V0707,Beacon Marketing,Data Analyst,Tech,R01,2026-03-25,,Open,Job Board,,
+V0708,Vertex Home Services,Accountant,Finance & Ops,R05,2026-04-15,,Cancelled,Referral,,
+V0709,Sterling Property Mgmt,Bookkeeper,Finance & Ops,R06,2025-10-28,,Cancelled,Referral,,
+V0710,Lakeside Insurance,Executive Assistant,Finance & Ops,R05,2026-06-01,,Cancelled,LinkedIn,,
+V0711,Copperfield Law,Accountant,Finance & Ops,R06,2025-10-07,,Open,Job Board,,
+V0712,ClearPath Accounting,Data Analyst,Tech,R03,2025-11-19,,Open,LinkedIn,,
+V0713,Maple & Main Retail,Full-Stack Developer,Tech,R10,2026-02-08,2026-03-22,Filled,Referral,3140,Brazil
+V0714,Grandview Hospitality,IT Support Specialist,Tech,R03,2026-06-24,,Cancelled,LinkedIn,,
+V0715,Peak Staffing Co,Data Analyst,Tech,R01,2025-11-04,2026-01-12,Filled,Job Board,2270,Argentina
+V0716,Falcon Freight,Executive Assistant,Finance & Ops,R04,2026-01-07,2026-02-15,Filled,LinkedIn,1260,Peru
+V0717,Quantum IT Services,Full-Stack Developer,Tech,R02,2025-11-14,2025-12-19,Filled,LinkedIn,3240,Colombia
+V0718,Everline Solar,Executive Assistant,Finance & Ops,R04,2026-05-28,,Cancelled,Referral,,
+V0719,Atlas E-commerce,Customer Support Rep,Marketing & Sales,R09,2026-03-15,2026-04-03,Filled,LinkedIn,1140,Venezuela
+V0720,Atlas E-commerce,Data Analyst,Tech,R03,2026-02-10,2026-03-19,Filled,LinkedIn,1950,Peru
+V0721,Quantum IT Services,Project Manager,Finance & Ops,R05,2025-11-25,2025-12-20,Filled,LinkedIn,2390,Venezuela
+V0722,Beacon Marketing,Data Analyst,Tech,R01,2025-11-07,2026-01-15,Filled,LinkedIn,2080,Colombia
+V0723,Atlas E-commerce,Customer Support Rep,Marketing & Sales,R07,2025-10-01,,Cancelled,Referral,,
+V0724,Peak Staffing Co,SDR / Appointment Setter,Marketing & Sales,R12,2026-06-09,2026-06-29,Filled,LinkedIn,1710,Peru
+V0725,ClearPath Accounting,Social Media Manager,Marketing & Sales,R07,2026-06-04,,Cancelled,Job Board,,
+V0726,Sterling Property Mgmt,Accountant,Finance & Ops,R04,2025-10-29,2025-12-23,Filled,Job Board,2280,Colombia
+V0727,Quantum IT Services,Executive Assistant,Finance & Ops,R05,2026-01-12,2026-02-17,Filled,Referral,1780,Argentina
+V0728,Summit Logistics,Full-Stack Developer,Tech,R10,2026-04-02,2026-05-08,Filled,LinkedIn,3100,Mexico
+V0729,Grandview Hospitality,Social Media Manager,Marketing & Sales,R12,2026-01-31,2026-03-23,Filled,Internal Database,1780,Venezuela
+V0730,Cascade Realty,Project Manager,Finance & Ops,R04,2025-10-09,2025-10-26,Filled,LinkedIn,2300,Venezuela
+V0731,Solstice Wellness,Customer Support Rep,Marketing & Sales,R12,2026-06-25,,Open,Referral,,
+V0732,Quantum IT Services,Full-Stack Developer,Tech,R02,2025-10-19,2025-11-05,Filled,Job Board,2420,Mexico
+V0733,Sterling Property Mgmt,Data Analyst,Tech,R01,2025-12-28,,Open,Job Board,,
+V0734,Vertex Home Services,Marketing Specialist,Marketing & Sales,R07,2025-11-02,2025-12-12,Filled,Referral,1920,Colombia
+V0735,Vertex Home Services,Social Media Manager,Marketing & Sales,R09,2026-04-24,2026-05-23,Filled,Job Board,1710,Argentina
+V0736,Quantum IT Services,Marketing Specialist,Marketing & Sales,R09,2025-12-28,2026-03-03,Filled,LinkedIn,1690,Mexico
+V0737,Falcon Freight,QA Engineer,Tech,R02,2026-05-13,,Open,Job Board,,
+V0738,Falcon Freight,QA Engineer,Tech,R10,2025-10-09,2025-11-01,Filled,Referral,1810,Brazil
+V0739,Copperfield Law,Executive Assistant,Finance & Ops,R11,2026-05-02,,Cancelled,Referral,,
+V0740,Ironwood Construction,IT Support Specialist,Tech,R01,2025-12-29,2026-01-21,Filled,LinkedIn,1830,Brazil
+V0741,Redwood Media,Data Analyst,Tech,R02,2026-01-29,2026-02-22,Filled,Internal Database,2270,Peru
+V0742,Lakeside Insurance,SDR / Appointment Setter,Marketing & Sales,R08,2026-06-17,,Cancelled,LinkedIn,,
+V0743,Falcon Freight,Full-Stack Developer,Tech,R10,2025-12-16,2026-01-02,Filled,LinkedIn,2580,Colombia
+V0744,Summit Logistics,IT Support Specialist,Tech,R03,2026-05-11,,Cancelled,LinkedIn,,
+V0745,Nova Legal Group,Data Analyst,Tech,R02,2025-12-30,,Open,Internal Database,,
+V0746,Peak Staffing Co,Social Media Manager,Marketing & Sales,R09,2026-05-16,,Cancelled,Job Board,,
+V0747,Peak Staffing Co,Bookkeeper,Finance & Ops,R04,2026-01-25,2026-03-03,Filled,LinkedIn,1550,Venezuela
+V0748,Harbor Dental Partners,Marketing Specialist,Marketing & Sales,R07,2026-06-06,,Open,Referral,,
+V0749,ClearPath Accounting,QA Engineer,Tech,R02,2026-05-23,,Cancelled,LinkedIn,,
+V0750,Harbor Dental Partners,Social Media Manager,Marketing & Sales,R09,2025-10-31,2026-01-09,Filled,Job Board,1810,Venezuela
+V0751,TrueNorth SaaS,IT Support Specialist,Tech,R02,2026-03-01,,Open,Internal Database,,
+V0752,TrueNorth SaaS,IT Support Specialist,Tech,R10,2025-11-14,,Open,Referral,,
+V0753,Peak Staffing Co,Project Manager,Finance & Ops,R04,2026-02-20,,Cancelled,LinkedIn,,
+V0754,Summit Logistics,Marketing Specialist,Marketing & Sales,R08,2026-01-22,,Open,LinkedIn,,
+V0755,Sterling Property Mgmt,Project Manager,Finance & Ops,R04,2026-06-16,,Cancelled,Referral,,
+V0756,Peak Staffing Co,Full-Stack Developer,Tech,R10,2025-10-07,,Open,Job Board,,
+V0757,TrueNorth SaaS,Full-Stack Developer,Tech,R10,2025-10-09,,Cancelled,Job Board,,
+V0758,Harbor Dental Partners,Data Analyst,Tech,R10,2026-05-21,,Open,Job Board,,
+V0759,Copperfield Law,Bookkeeper,Finance & Ops,R04,2026-05-26,,Open,LinkedIn,,
+V0760,Solstice Wellness,Accountant,Finance & Ops,R05,2026-02-16,,Open,Internal Database,,
+V0761,Redwood Media,SDR / Appointment Setter,Marketing & Sales,R07,2026-04-05,2026-04-22,Filled,LinkedIn,1420,Argentina
+V0762,Beacon Marketing,SDR / Appointment Setter,Marketing & Sales,R08,2025-11-04,2025-11-30,Filled,Job Board,1400,Brazil
+V0763,Summit Logistics,Marketing Specialist,Marketing & Sales,R08,2026-01-16,2026-03-23,Filled,LinkedIn,2130,Argentina
+V0764,Quantum IT Services,Bookkeeper,Finance & Ops,R11,2026-05-20,,Cancelled,Referral,,
+V0765,Vertex Home Services,SDR / Appointment Setter,Marketing & Sales,R12,2026-02-27,,Cancelled,Internal Database,,
+V0766,Harbor Dental Partners,Project Manager,Finance & Ops,R04,2025-11-14,2025-12-05,Filled,LinkedIn,2160,Colombia
+V0767,Pinnacle Auto Group,Social Media Manager,Marketing & Sales,R12,2025-12-15,2025-12-29,Filled,Internal Database,1420,Argentina
+V0768,Vertex Home Services,SDR / Appointment Setter,Marketing & Sales,R12,2025-12-07,2025-12-21,Filled,LinkedIn,1470,Argentina
+V0769,Beacon Marketing,IT Support Specialist,Tech,R03,2026-06-24,,Cancelled,Referral,,
+V0770,Harbor Dental Partners,Social Media Manager,Marketing & Sales,R12,2026-06-29,,Cancelled,Job Board,,
+V0771,BlueOak Financial,IT Support Specialist,Tech,R03,2026-06-05,,Open,LinkedIn,,
+V0772,Quantum IT Services,Project Manager,Finance & Ops,R05,2025-12-25,,Cancelled,Job Board,,
+V0773,BlueOak Financial,Customer Support Rep,Marketing & Sales,R08,2025-12-18,2026-02-08,Filled,Referral,1120,Peru
+V0774,BlueOak Financial,Bookkeeper,Finance & Ops,R05,2026-01-03,2026-02-24,Filled,LinkedIn,1320,Argentina
+V0775,BlueOak Financial,SDR / Appointment Setter,Marketing & Sales,R09,2025-12-23,2026-03-08,Filled,Internal Database,1210,Philippines
+V0776,Falcon Freight,Bookkeeper,Finance & Ops,R04,2025-12-19,,Open,Job Board,,
+V0777,ClearPath Accounting,Project Manager,Finance & Ops,R05,2026-02-26,,Open,Job Board,,
+V0778,Brightline Health,Social Media Manager,Marketing & Sales,R07,2026-06-03,,Cancelled,Referral,,
+V0779,Copperfield Law,IT Support Specialist,Tech,R03,2026-05-17,2026-06-22,Filled,LinkedIn,1430,Peru
+V0780,Atlas E-commerce,Executive Assistant,Finance & Ops,R04,2026-01-09,2026-02-01,Filled,LinkedIn,1710,Peru
+V0781,Quantum IT Services,Bookkeeper,Finance & Ops,R04,2026-06-19,,Open,Internal Database,,
+V0782,Grandview Hospitality,Bookkeeper,Finance & Ops,R06,2026-04-16,2026-06-06,Filled,LinkedIn,1510,Venezuela
+V0783,Solstice Wellness,Social Media Manager,Marketing & Sales,R12,2026-05-16,,Open,Internal Database,,
+V0784,TrueNorth SaaS,QA Engineer,Tech,R02,2025-11-14,2026-01-07,Filled,Job Board,2180,Colombia
+V0785,Grandview Hospitality,Full-Stack Developer,Tech,R10,2025-10-04,,Cancelled,Referral,,
+V0786,Ironwood Construction,Marketing Specialist,Marketing & Sales,R08,2025-12-10,2026-02-22,Filled,Job Board,1770,Colombia
+V0787,Lakeside Insurance,Executive Assistant,Finance & Ops,R11,2026-06-10,,Cancelled,LinkedIn,,
+V0788,Harbor Dental Partners,Customer Support Rep,Marketing & Sales,R07,2026-05-30,,Cancelled,Referral,,
+V0789,Solstice Wellness,Social Media Manager,Marketing & Sales,R07,2026-02-03,2026-02-23,Filled,LinkedIn,1470,Peru
+V0790,Redwood Media,Project Manager,Finance & Ops,R06,2026-05-12,,Cancelled,Referral,,
+V0791,Quantum IT Services,Marketing Specialist,Marketing & Sales,R09,2025-10-09,2025-11-30,Filled,LinkedIn,1540,Venezuela
+V0792,Ironwood Construction,QA Engineer,Tech,R03,2025-10-28,2025-12-24,Filled,LinkedIn,2310,Colombia
+V0793,Riverbend Clinics,Customer Support Rep,Marketing & Sales,R08,2025-11-09,,Cancelled,Job Board,,
+V0794,Lakeside Insurance,SDR / Appointment Setter,Marketing & Sales,R09,2026-03-15,,Open,Job Board,,
+V0795,BlueOak Financial,Social Media Manager,Marketing & Sales,R07,2026-04-04,2026-05-04,Filled,Referral,1510,Colombia
+V0796,BlueOak Financial,Bookkeeper,Finance & Ops,R11,2026-06-06,2026-07-01,Filled,Referral,1850,Mexico
+V0797,BlueOak Financial,IT Support Specialist,Tech,R01,2026-06-27,,Cancelled,Internal Database,,
+V0798,Riverbend Clinics,Project Manager,Finance & Ops,R06,2026-03-28,,Cancelled,Referral,,
+V0799,Quantum IT Services,Bookkeeper,Finance & Ops,R06,2025-12-28,2026-02-06,Filled,LinkedIn,1790,Mexico
+V0800,Everline Solar,IT Support Specialist,Tech,R02,2026-03-07,2026-05-12,Filled,Job Board,1990,Brazil
+V0801,Summit Logistics,Full-Stack Developer,Tech,R10,2025-10-10,,Cancelled,Job Board,,
+V0802,Maple & Main Retail,SDR / Appointment Setter,Marketing & Sales,R12,2025-10-31,2025-11-20,Filled,LinkedIn,1350,Argentina
+V0803,Nova Legal Group,Full-Stack Developer,Tech,R02,2025-12-03,2026-01-28,Filled,LinkedIn,2620,Colombia
+V0804,TrueNorth SaaS,Social Media Manager,Marketing & Sales,R09,2026-02-20,2026-04-03,Filled,LinkedIn,1810,Peru
+V0805,Everline Solar,Marketing Specialist,Marketing & Sales,R08,2025-10-08,,Cancelled,Referral,,
+V0806,Redwood Media,Social Media Manager,Marketing & Sales,R08,2025-11-20,,Open,Job Board,,
+V0807,Pinnacle Auto Group,QA Engineer,Tech,R01,2026-05-14,,Cancelled,LinkedIn,,
+V0808,Cascade Realty,IT Support Specialist,Tech,R01,2026-04-27,,Cancelled,Referral,,
+V0809,Cascade Realty,Project Manager,Finance & Ops,R06,2026-04-03,2026-05-26,Filled,Referral,2040,Venezuela
+V0810,Nova Legal Group,Project Manager,Finance & Ops,R11,2026-03-09,2026-05-14,Filled,Internal Database,2370,Mexico
+V0811,Sterling Property Mgmt,Project Manager,Finance & Ops,R05,2026-04-07,2026-05-02,Filled,Referral,2610,Venezuela
+V0812,Harbor Dental Partners,Customer Support Rep,Marketing & Sales,R07,2025-11-13,2025-12-08,Filled,LinkedIn,1300,Brazil
+V0813,Pinnacle Auto Group,IT Support Specialist,Tech,R02,2026-03-23,2026-04-19,Filled,Job Board,1990,Mexico
+V0814,Copperfield Law,Executive Assistant,Finance & Ops,R11,2026-02-17,2026-04-21,Filled,LinkedIn,1600,Venezuela
+V0815,Cascade Realty,Project Manager,Finance & Ops,R04,2025-11-25,2025-12-24,Filled,Job Board,2450,Colombia
+V0816,BlueOak Financial,Full-Stack Developer,Tech,R01,2026-06-13,,Open,LinkedIn,,
+V0817,Sterling Property Mgmt,Marketing Specialist,Marketing & Sales,R07,2025-11-19,,Cancelled,LinkedIn,,
+V0818,Summit Logistics,Customer Support Rep,Marketing & Sales,R12,2026-06-12,2026-06-26,Filled,Internal Database,1370,Philippines
+V0819,Summit Logistics,Full-Stack Developer,Tech,R10,2026-04-15,2026-06-24,Filled,LinkedIn,2810,Colombia
+V0820,Everline Solar,Customer Support Rep,Marketing & Sales,R08,2026-03-05,2026-05-05,Filled,LinkedIn,1170,Venezuela
+V0821,Lakeside Insurance,Customer Support Rep,Marketing & Sales,R12,2026-06-09,2026-06-28,Filled,Referral,1530,Venezuela
+V0822,Redwood Media,Accountant,Finance & Ops,R06,2026-03-30,2026-04-16,Filled,LinkedIn,1620,Mexico
+V0823,Redwood Media,Social Media Manager,Marketing & Sales,R09,2025-10-14,2025-12-10,Filled,LinkedIn,1560,Venezuela
+V0824,Ironwood Construction,IT Support Specialist,Tech,R02,2026-02-04,,Cancelled,LinkedIn,,
+V0825,Copperfield Law,QA Engineer,Tech,R03,2025-10-11,2025-12-16,Filled,Internal Database,2330,Peru
+V0826,Atlas E-commerce,Executive Assistant,Finance & Ops,R11,2025-10-11,2025-12-10,Filled,LinkedIn,1790,Peru
+V0827,Copperfield Law,Full-Stack Developer,Tech,R01,2026-06-08,,Cancelled,Job Board,,
+V0828,Beacon Marketing,Customer Support Rep,Marketing & Sales,R08,2026-03-23,2026-05-29,Filled,Job Board,1280,Mexico
+V0829,Peak Staffing Co,Full-Stack Developer,Tech,R03,2026-01-18,2026-03-22,Filled,Job Board,2730,Philippines
+V0830,Vertex Home Services,Full-Stack Developer,Tech,R03,2025-11-18,2026-01-29,Filled,LinkedIn,3020,Venezuela
+V0831,Atlas E-commerce,Full-Stack Developer,Tech,R03,2026-03-04,2026-04-10,Filled,LinkedIn,2990,Venezuela
+V0832,TrueNorth SaaS,SDR / Appointment Setter,Marketing & Sales,R08,2026-05-21,,Open,Referral,,
+V0833,TrueNorth SaaS,Customer Support Rep,Marketing & Sales,R09,2026-05-28,,Open,Job Board,,
+V0834,Solstice Wellness,Data Analyst,Tech,R02,2026-06-25,,Cancelled,Job Board,,
+V0835,Vertex Home Services,Executive Assistant,Finance & Ops,R11,2026-05-11,2026-05-31,Filled,Job Board,1700,Brazil
+V0836,Cascade Realty,Executive Assistant,Finance & Ops,R05,2026-02-24,2026-04-28,Filled,LinkedIn,1560,Mexico
+V0837,Falcon Freight,Data Analyst,Tech,R03,2026-02-03,2026-04-11,Filled,Internal Database,2290,Venezuela
+V0838,Grandview Hospitality,IT Support Specialist,Tech,R03,2025-12-21,2026-02-06,Filled,LinkedIn,1560,Brazil
+V0839,Riverbend Clinics,Data Analyst,Tech,R01,2026-06-06,,Cancelled,LinkedIn,,
+V0840,Solstice Wellness,Full-Stack Developer,Tech,R03,2026-04-27,,Cancelled,Job Board,,
+V0841,Nova Legal Group,IT Support Specialist,Tech,R01,2025-11-27,2026-01-10,Filled,LinkedIn,1900,Venezuela
+V0842,Pinnacle Auto Group,Full-Stack Developer,Tech,R03,2026-03-10,,Open,LinkedIn,,
+V0843,TrueNorth SaaS,Full-Stack Developer,Tech,R02,2025-12-29,,Open,LinkedIn,,
+V0844,BlueOak Financial,SDR / Appointment Setter,Marketing & Sales,R07,2026-04-10,2026-05-23,Filled,LinkedIn,1450,Argentina
+V0845,Solstice Wellness,Social Media Manager,Marketing & Sales,R09,2026-04-07,2026-04-23,Filled,Job Board,1880,Philippines
+V0846,Maple & Main Retail,Data Analyst,Tech,R03,2026-01-31,2026-03-30,Filled,LinkedIn,2120,Philippines
+V0847,Nova Legal Group,IT Support Specialist,Tech,R10,2026-05-15,2026-06-28,Filled,Internal Database,1980,Argentina
+V0848,Falcon Freight,IT Support Specialist,Tech,R02,2026-03-02,,Open,LinkedIn,,
+V0849,Beacon Marketing,Customer Support Rep,Marketing & Sales,R07,2026-04-27,,Cancelled,Job Board,,
+V0850,Redwood Media,Bookkeeper,Finance & Ops,R04,2026-05-05,,Open,Referral,,
+V0851,Falcon Freight,Social Media Manager,Marketing & Sales,R12,2026-03-17,,Cancelled,Referral,,
+V0852,Nova Legal Group,Customer Support Rep,Marketing & Sales,R07,2025-12-09,2026-01-30,Filled,LinkedIn,1410,Peru
+V0853,Sterling Property Mgmt,IT Support Specialist,Tech,R02,2026-06-22,,Open,Referral,,
+V0854,Ironwood Construction,Social Media Manager,Marketing & Sales,R09,2025-12-08,2026-01-30,Filled,LinkedIn,1660,Philippines
+V0855,Brightline Health,Accountant,Finance & Ops,R05,2026-04-07,2026-05-17,Filled,Internal Database,1900,Colombia
+V0856,Summit Logistics,Customer Support Rep,Marketing & Sales,R07,2026-01-26,,Open,Referral,,
+V0857,Quantum IT Services,Accountant,Finance & Ops,R05,2026-02-11,2026-03-10,Filled,Referral,1890,Colombia
+V0858,Ironwood Construction,Project Manager,Finance & Ops,R04,2026-06-11,,Cancelled,Job Board,,
+V0859,Solstice Wellness,Accountant,Finance & Ops,R11,2025-12-06,,Open,Job Board,,
+V0860,Peak Staffing Co,Accountant,Finance & Ops,R11,2026-01-01,,Open,Job Board,,
+V0861,Atlas E-commerce,IT Support Specialist,Tech,R10,2026-04-08,2026-05-31,Filled,Job Board,1680,Brazil
+V0862,Grandview Hospitality,Social Media Manager,Marketing & Sales,R12,2026-04-15,,Cancelled,LinkedIn,,
+V0863,Brightline Health,Bookkeeper,Finance & Ops,R11,2026-01-29,,Open,LinkedIn,,
+V0864,Grandview Hospitality,Marketing Specialist,Marketing & Sales,R09,2026-04-14,,Open,LinkedIn,,
+V0865,Nova Legal Group,QA Engineer,Tech,R02,2026-02-11,2026-04-23,Filled,LinkedIn,2540,Mexico
+V0866,Lakeside Insurance,SDR / Appointment Setter,Marketing & Sales,R08,2026-05-10,2026-06-07,Filled,Job Board,1390,Venezuela
+V0867,ClearPath Accounting,Accountant,Finance & Ops,R06,2026-02-22,2026-04-08,Filled,Referral,2210,Peru
+V0868,Summit Logistics,QA Engineer,Tech,R10,2026-03-11,,Cancelled,LinkedIn,,
+V0869,Cascade Realty,Data Analyst,Tech,R02,2026-01-26,2026-04-07,Filled,Internal Database,2080,Venezuela
+V0870,Beacon Marketing,Project Manager,Finance & Ops,R11,2025-10-21,2026-01-03,Filled,LinkedIn,2640,Venezuela
+V0871,Harbor Dental Partners,Social Media Manager,Marketing & Sales,R07,2025-12-15,2026-02-01,Filled,Job Board,1420,Mexico
+V0872,Peak Staffing Co,Executive Assistant,Finance & Ops,R04,2026-01-17,2026-03-23,Filled,Job Board,1540,Colombia
+V0873,Redwood Media,Customer Support Rep,Marketing & Sales,R09,2025-11-18,2025-12-15,Filled,Referral,1440,Venezuela
+V0874,Falcon Freight,Full-Stack Developer,Tech,R02,2026-03-15,2026-05-27,Filled,Internal Database,2910,Venezuela
+V0875,ClearPath Accounting,Marketing Specialist,Marketing & Sales,R09,2025-10-03,,Open,Internal Database,,
+V0876,ClearPath Accounting,Social Media Manager,Marketing & Sales,R08,2025-12-06,,Open,Job Board,,
+V0877,Atlas E-commerce,Social Media Manager,Marketing & Sales,R12,2025-11-06,2025-12-18,Filled,LinkedIn,1450,Philippines
+V0878,Cascade Realty,IT Support Specialist,Tech,R10,2025-12-23,,Open,LinkedIn,,
+V0879,Vertex Home Services,Accountant,Finance & Ops,R05,2026-03-08,2026-05-06,Filled,Referral,1680,Peru
+V0880,Redwood Media,Accountant,Finance & Ops,R06,2026-06-01,,Cancelled,Job Board,,
+V0881,Maple & Main Retail,Accountant,Finance & Ops,R04,2026-05-07,,Cancelled,LinkedIn,,
+V0882,Sterling Property Mgmt,Customer Support Rep,Marketing & Sales,R12,2025-12-19,2026-01-10,Filled,Referral,1420,Argentina
+V0883,Peak Staffing Co,Project Manager,Finance & Ops,R05,2026-03-03,,Open,Referral,,
+V0884,Pinnacle Auto Group,Executive Assistant,Finance & Ops,R04,2025-10-25,,Open,LinkedIn,,
+V0885,Solstice Wellness,Customer Support Rep,Marketing & Sales,R09,2026-02-07,2026-02-21,Filled,Job Board,1140,Colombia
+V0886,TrueNorth SaaS,QA Engineer,Tech,R10,2026-01-02,2026-02-21,Filled,Job Board,2130,Argentina
+V0887,Harbor Dental Partners,Customer Support Rep,Marketing & Sales,R09,2026-05-19,2026-06-23,Filled,LinkedIn,1560,Mexico
+V0888,Brightline Health,Marketing Specialist,Marketing & Sales,R07,2026-02-10,2026-04-13,Filled,LinkedIn,1510,Colombia
+V0889,Ironwood Construction,Project Manager,Finance & Ops,R11,2026-05-24,,Open,Job Board,,
+V0890,Brightline Health,Marketing Specialist,Marketing & Sales,R12,2026-04-03,,Open,LinkedIn,,
+V0891,Falcon Freight,Data Analyst,Tech,R01,2026-01-05,2026-02-16,Filled,Internal Database,2350,Venezuela
+V0892,Brightline Health,SDR / Appointment Setter,Marketing & Sales,R07,2026-01-06,2026-03-19,Filled,LinkedIn,1480,Venezuela
+V0893,Ironwood Construction,QA Engineer,Tech,R10,2026-05-16,2026-06-28,Filled,Referral,2490,Mexico
+V0894,Beacon Marketing,Accountant,Finance & Ops,R06,2025-10-27,2026-01-02,Filled,Job Board,2100,Venezuela
+V0895,Quantum IT Services,Marketing Specialist,Marketing & Sales,R07,2026-02-26,2026-05-11,Filled,LinkedIn,1840,Mexico
+V0896,Beacon Marketing,Data Analyst,Tech,R03,2026-05-05,,Cancelled,LinkedIn,,
+V0897,Solstice Wellness,Marketing Specialist,Marketing & Sales,R12,2026-03-27,,Cancelled,LinkedIn,,
+V0898,Riverbend Clinics,Bookkeeper,Finance & Ops,R05,2026-05-13,,Cancelled,Internal Database,,
+V0899,Pinnacle Auto Group,Social Media Manager,Marketing & Sales,R08,2026-05-28,,Open,Job Board,,
+V0900,Ironwood Construction,Customer Support Rep,Marketing & Sales,R12,2026-04-03,,Open,Job Board,,

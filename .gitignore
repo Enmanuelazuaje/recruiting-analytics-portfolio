@@ -1,0 +1,5 @@
+# Private prep notes (not part of the public portfolio)
+guias_privadas/
+
+# n8n local state
+.n8n/

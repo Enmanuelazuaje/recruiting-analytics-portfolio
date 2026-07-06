@@ -1,0 +1,168 @@
+{
+  "name": "ETL Vacancies - Data Quality Pipeline",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "a1000000-0000-4000-8000-000000000001",
+      "name": "Ejecutar manualmente",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [-460, -80]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      },
+      "id": "a1000000-0000-4000-8000-000000000002",
+      "name": "Cada dia 7 AM",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-460, 120]
+    },
+    {
+      "parameters": {
+        "fileSelector": "C:/Users/ENMANUEL AZUAJE/Desktop/Proyectos_Data_Analyst/3_n8n_ETL_Pipeline/data/vacancies_raw.csv",
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000003",
+      "name": "Leer CSV crudo",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [-240, 20]
+    },
+    {
+      "parameters": {
+        "operation": "csv",
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000004",
+      "name": "Extraer CSV",
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [-40, 20]
+    },
+    {
+      "parameters": {
+        "jsCode": "// LIMPIEZA Y VALIDACION\n// 1. Trim de espacios  2. Deduplicacion por vacancy_id\n// 3. Normalizacion de client_name  4. Fee '$1900 USD' -> 1900\n// 5. Fechas MM/DD/YYYY -> YYYY-MM-DD  6. Reglas de negocio\nconst seen = new Set();\nconst out = [];\n\nconst fixDate = (s) => {\n  if (!s) return null;\n  const us = String(s).match(/^(\\d{2})\\/(\\d{2})\\/(\\d{4})$/);\n  if (us) return `${us[3]}-${us[1]}-${us[2]}`;\n  return s;\n};\n\nfor (const item of $input.all()) {\n  const r = { ...item.json };\n\n  for (const k of Object.keys(r)) {\n    if (typeof r[k] === 'string') r[k] = r[k].trim();\n  }\n\n  if (seen.has(r.vacancy_id)) continue; // duplicado exacto: fuera\n  seen.add(r.vacancy_id);\n\n  r.client_name = String(r.client_name || '')\n    .toLowerCase()\n    .replace(/\\b\\w/g, (c) => c.toUpperCase());\n\n  if (r.monthly_fee_usd !== '' && r.monthly_fee_usd != null) {\n    r.monthly_fee_usd = parseFloat(String(r.monthly_fee_usd).replace(/[^0-9.]/g, ''));\n  } else {\n    r.monthly_fee_usd = null;\n  }\n\n  r.opened_date = fixDate(r.opened_date);\n  r.filled_date = fixDate(r.filled_date) || null;\n\n  const issues = [];\n  if (!r.recruiter_id) issues.push('recruiter_id faltante');\n  if (r.status === 'Filled' && !r.filled_date) issues.push('Filled sin filled_date');\n  if (r.status === 'Filled' && (r.monthly_fee_usd == null || isNaN(r.monthly_fee_usd))) issues.push('Filled sin fee valido');\n  if (r.filled_date && r.opened_date && r.filled_date < r.opened_date) issues.push('filled_date anterior a opened_date');\n\n  out.push({ json: { ...r, _valid: issues.length === 0, _issues: issues } });\n}\n\nreturn out;"
+      },
+      "id": "a1000000-0000-4000-8000-000000000005",
+      "name": "Limpiar y validar",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [160, 20]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Solo registros validos, sin campos internos\nreturn $input.all()\n  .filter((i) => i.json._valid)\n  .map((i) => {\n    const { _valid, _issues, ...rest } = i.json;\n    return { json: rest };\n  });"
+      },
+      "id": "a1000000-0000-4000-8000-000000000006",
+      "name": "Registros limpios",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [380, -100]
+    },
+    {
+      "parameters": {
+        "jsCode": "// REPORTE DE CALIDAD + RECONCILIACION\n// Compara filas de entrada vs salida: entrada = duplicados + validos + invalidos\nconst cleaned = $input.all().map((i) => i.json);\nconst rowsIn = $('Extraer CSV').all().length;\nconst valid = cleaned.filter((r) => r._valid);\nconst invalid = cleaned.filter((r) => !r._valid);\n\nconst issueCount = {};\nfor (const r of invalid) {\n  for (const is of r._issues) issueCount[is] = (issueCount[is] || 0) + 1;\n}\n\nconst revenue = valid\n  .filter((r) => r.status === 'Filled')\n  .reduce((s, r) => s + (r.monthly_fee_usd || 0), 0);\n\nconst duplicates = rowsIn - cleaned.length;\nconst reconciled = rowsIn === duplicates + valid.length + invalid.length;\n\nreturn [{\n  json: {\n    executed_at: new Date().toISOString(),\n    source_file: 'vacancies_raw.csv',\n    rows_in: rowsIn,\n    duplicates_removed: duplicates,\n    rows_valid: valid.length,\n    rows_invalid: invalid.length,\n    reconciliation_check: reconciled ? 'OK' : 'MISMATCH',\n    issues_breakdown: issueCount,\n    total_monthly_revenue_usd: Math.round(revenue),\n  },\n}];"
+      },
+      "id": "a1000000-0000-4000-8000-000000000007",
+      "name": "Reporte de calidad",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [380, 140]
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "options": {
+          "format": true
+        }
+      },
+      "id": "a1000000-0000-4000-8000-000000000008",
+      "name": "JSON limpio",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [600, -100]
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "options": {
+          "format": true
+        }
+      },
+      "id": "a1000000-0000-4000-8000-000000000009",
+      "name": "JSON reporte",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [600, 140]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "C:/Users/ENMANUEL AZUAJE/Desktop/Proyectos_Data_Analyst/3_n8n_ETL_Pipeline/output/vacancies_clean.json",
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000010",
+      "name": "Guardar datos limpios",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [820, -100]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "C:/Users/ENMANUEL AZUAJE/Desktop/Proyectos_Data_Analyst/3_n8n_ETL_Pipeline/output/data_quality_report.json",
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000011",
+      "name": "Guardar reporte",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [820, 140]
+    }
+  ],
+  "connections": {
+    "Ejecutar manualmente": {
+      "main": [[{ "node": "Leer CSV crudo", "type": "main", "index": 0 }]]
+    },
+    "Cada dia 7 AM": {
+      "main": [[{ "node": "Leer CSV crudo", "type": "main", "index": 0 }]]
+    },
+    "Leer CSV crudo": {
+      "main": [[{ "node": "Extraer CSV", "type": "main", "index": 0 }]]
+    },
+    "Extraer CSV": {
+      "main": [[{ "node": "Limpiar y validar", "type": "main", "index": 0 }]]
+    },
+    "Limpiar y validar": {
+      "main": [[
+        { "node": "Registros limpios", "type": "main", "index": 0 },
+        { "node": "Reporte de calidad", "type": "main", "index": 0 }
+      ]]
+    },
+    "Registros limpios": {
+      "main": [[{ "node": "JSON limpio", "type": "main", "index": 0 }]]
+    },
+    "Reporte de calidad": {
+      "main": [[{ "node": "JSON reporte", "type": "main", "index": 0 }]]
+    },
+    "JSON limpio": {
+      "main": [[{ "node": "Guardar datos limpios", "type": "main", "index": 0 }]]
+    },
+    "JSON reporte": {
+      "main": [[{ "node": "Guardar reporte", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}
