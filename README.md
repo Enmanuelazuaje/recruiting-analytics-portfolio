@@ -2,7 +2,7 @@
 
 End-to-end analytics portfolio built around a realistic dataset from a remote staffing
 agency: **900 vacancies**, daily **marketing performance** (spend, leads, deals) and a
-recruiter dimension table. Three projects, one business question each.
+recruiter dimension table. Four projects, one business question each.
 
 **Author:** Enmanuel Azuaje — [enmanuelazuaje.github.io](https://enmanuelazuaje.github.io) · enmanuelacepeda@gmail.com
 
@@ -11,6 +11,7 @@ recruiter dimension table. Three projects, one business question each.
 | [1. Tableau Dashboard](1_Tableau_Recruiting_Dashboard/) | Tableau Public | Sales, vacancies & marketing performance dashboard |
 | [2. BigQuery SQL Analytics](2_BigQuery_SQL_Analytics/) | BigQuery (GCP), Standard SQL | Advanced SQL: CTEs, window functions, data-quality & reconciliation checks |
 | [3. n8n ETL Pipeline](3_n8n_ETL_Pipeline/) | n8n, JavaScript | Scheduled ETL with cleaning, validation and a data-quality report |
+| [4. Snowflake Migration](4_Snowflake_Migration/) | Snowflake, Standard SQL | BigQuery → Snowflake port with automated cross-platform parity QA (27 checks) |
 
 ## The dataset
 
