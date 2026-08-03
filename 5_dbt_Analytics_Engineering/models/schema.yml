@@ -1,0 +1,159 @@
+version: 2
+
+# This file is two things at once:
+#   1. The automated test suite that runs on every `dbt build`.
+#   2. The data dictionary. Every column carries a definition in business
+#      language, which is what makes these tables safe to expose to an AI or
+#      conversational analytics layer — the meaning lives in the data layer,
+#      not in someone's head or in a prompt.
+
+models:
+
+  # ---------------------------------------------------------------- staging
+
+  - name: stg_vacancies
+    description: >
+      One row per vacancy, cleaned and typed from the raw source. Status is
+      lowercased so downstream models never depend on source casing.
+    columns:
+      - name: vacancy_id
+        description: Unique identifier of the vacancy. Primary key.
+        tests: [unique, not_null]
+      - name: recruiter_id
+        description: Recruiter who owns the vacancy. Foreign key to stg_recruiters.
+        tests:
+          - relationships:
+              to: ref('stg_recruiters')
+              field: recruiter_id
+      - name: vacancy_status
+        description: "Lifecycle state of the vacancy: filled, open or cancelled."
+        tests:
+          - accepted_values:
+              values: ['filled', 'open', 'cancelled']
+      - name: is_filled
+        description: True when the vacancy reached Filled status. Drives revenue recognition.
+        tests: [not_null]
+      - name: opened_date
+        description: Date the vacancy was opened by the client.
+        tests: [not_null]
+      - name: days_to_fill
+        description: >
+          Calendar days between opened_date and filled_date. Null for vacancies
+          that are not filled — an open role has no time-to-fill, and treating
+          it as zero would understate the KPI.
+      - name: monthly_fee_usd
+        description: >
+          Monthly placement fee agreed with the client, in USD. Null until the
+          vacancy is filled — the fee is only agreed at placement, so open and
+          cancelled vacancies legitimately carry no fee. The business rule that
+          a *filled* vacancy must always have one is asserted in
+          tests/assert_filled_vacancies_have_a_fee.sql.
+
+  - name: stg_recruiters
+    description: One row per recruiter. Reference data for the recruiting team.
+    columns:
+      - name: recruiter_id
+        description: Unique identifier of the recruiter. Primary key.
+        tests: [unique, not_null]
+      - name: recruiter_name
+        description: Full name of the recruiter.
+        tests: [not_null]
+      - name: recruiter_team
+        description: "Team the recruiter belongs to (e.g. Tech, Marketing & Sales)."
+      - name: recruiter_country
+        description: Country where the recruiter is based.
+
+  - name: stg_marketing_leads
+    description: Daily marketing spend and funnel counts by acquisition channel.
+    columns:
+      - name: spend_date
+        description: Date the marketing spend was incurred.
+        tests: [not_null]
+      - name: marketing_channel
+        description: "Paid acquisition channel (e.g. LinkedIn Ads, Google Ads)."
+        tests: [not_null]
+      - name: ad_spend_usd
+        description: Advertising spend for that channel and day, in USD.
+      - name: leads
+        description: Raw leads generated. Top of the funnel.
+      - name: qualified_leads
+        description: Leads that met qualification criteria. Subset of leads.
+
+  # ----------------------------------------------------------- intermediate
+
+  - name: int_vacancies_enriched
+    description: >
+      Vacancies joined to their recruiter, with shared business rules applied
+      once: revenue recognition and fill-speed banding. Every mart reads from
+      here, which is what stops two dashboards from disagreeing.
+    columns:
+      - name: vacancy_id
+        tests: [unique, not_null]
+      - name: annual_contract_value_usd
+        description: >
+          Monthly fee annualised (x12), recognised only on filled vacancies;
+          0 otherwise. Defined in the annual_contract_value macro.
+        tests: [not_null]
+      - name: fill_speed_band
+        description: "Fill speed bucket: fast (0-14d), standard (15-30d), slow (31d+), not filled."
+        tests:
+          - accepted_values:
+              values: ['fast (0-14d)', 'standard (15-30d)', 'slow (31d+)', 'not filled']
+
+  # ------------------------------------------------------------------ marts
+
+  - name: fct_vacancies
+    description: >
+      Business-facing fact table at vacancy grain. Flat, denormalised and fully
+      documented — the table to point a dashboard or an AI agent at.
+    columns:
+      - name: vacancy_id
+        description: Unique identifier of the vacancy. Primary key.
+        tests: [unique, not_null]
+      - name: client_name
+        description: Client company the vacancy belongs to.
+        tests: [not_null]
+      - name: recruiter_name
+        description: Recruiter who owned the vacancy.
+      - name: fill_speed_band
+        description: Fill speed bucket used for operational reporting.
+      - name: annual_contract_value_usd
+        description: Recognised annual revenue for this vacancy, in USD. 0 when not filled.
+        tests: [not_null]
+
+  - name: dim_recruiter_performance
+    description: >
+      Pre-aggregated recruiter scorecard. Reports median days-to-fill as the
+      headline metric because the mean is distorted by a small number of
+      hard-to-fill roles; the average is retained alongside for comparison.
+    columns:
+      - name: recruiter_id
+        description: Recruiter identifier. Primary key of this table.
+        tests: [unique, not_null]
+      - name: vacancies_assigned
+        description: Total vacancies ever assigned to the recruiter.
+        tests: [not_null]
+      - name: fill_rate_pct
+        description: Filled vacancies as a percentage of assigned vacancies (0-100).
+      - name: median_days_to_fill
+        description: Median calendar days to fill, across filled vacancies only.
+      - name: revenue_generated_usd
+        description: Sum of recognised annual contract value across the recruiter's filled vacancies.
+
+  - name: fct_marketing_performance
+    description: >
+      Marketing efficiency by channel and month, with cost and conversion
+      ratios pre-computed. All ratios are null-guarded against zero divisors.
+    columns:
+      - name: marketing_channel
+        description: Paid acquisition channel.
+        tests: [not_null]
+      - name: spend_month
+        description: Month of spend, truncated to the first day of the month.
+        tests: [not_null]
+      - name: cost_per_lead_usd
+        description: Ad spend divided by leads. Null when the channel produced no leads.
+      - name: cost_per_deal_usd
+        description: Ad spend divided by deals closed. Null when no deals closed.
+      - name: lead_qualification_rate_pct
+        description: Qualified leads as a percentage of total leads (0-100).

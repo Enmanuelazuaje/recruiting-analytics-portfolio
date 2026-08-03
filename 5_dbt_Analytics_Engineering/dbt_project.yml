@@ -1,0 +1,47 @@
+name: 'recruiting_analytics'
+version: '1.0.0'
+config-version: 2
+
+profile: 'recruiting_analytics'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+analysis-paths: ["analyses"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  recruiting_analytics:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+
+seeds:
+  recruiting_analytics:
+    +schema: raw
+    vacancies:
+      +column_types:
+        vacancy_id: varchar
+        recruiter_id: varchar
+        opened_date: date
+        filled_date: date
+        monthly_fee_usd: double
+    recruiters:
+      +column_types:
+        recruiter_id: varchar
+        hire_date: date
+    marketing_leads:
+      +column_types:
+        date: date
+        ad_spend_usd: double

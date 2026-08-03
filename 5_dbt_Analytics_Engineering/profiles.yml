@@ -1,0 +1,10 @@
+# Local-first profile: the whole project runs on DuckDB with no cloud account,
+# no credentials and no cost. The same models run on BigQuery or Snowflake by
+# adding a target here — the SQL is written against dbt's adapter layer.
+recruiting_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: recruiting_analytics.duckdb
+      threads: 4
